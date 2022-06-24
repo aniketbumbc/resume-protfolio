@@ -47,7 +47,6 @@
 
       &:hover {
         color: #9a1750;
-
         svg {
           opacity: 0;
         }
@@ -59,7 +58,8 @@
 
       &:after {
         content: '';
-        font-size: 9px;
+        font-size: 18px;
+        font-weight: 700;
         letter-spacing: 2px;
         position: absolute;
         bottom: 0;
@@ -81,6 +81,12 @@
     a.about-link {
       &:after {
         content: 'ABOUT';
+      }
+    }
+
+    a.work-link {
+      &:after {
+        content: 'Work';
       }
     }
 

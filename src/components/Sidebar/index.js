@@ -3,7 +3,12 @@ import './index.scss';
 import LogoBunny from '../../assets/images/logo.png';
 import LogoName from '../../assets/images/logo_name.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import {
+  faEnvelope,
+  faHome,
+  faUser,
+  faBriefcase,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => {
   return (
@@ -25,6 +30,16 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
           </NavLink>
+
+          <NavLink
+            exact="true"
+            activeclassname="active"
+            className="work-link"
+            to="/work"
+          >
+            <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
+          </NavLink>
+
           <NavLink
             exact="true"
             activeclassname="active"
