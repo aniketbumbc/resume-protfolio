@@ -35,3 +35,5 @@ export const jobArray = [
   'r',
   '.',
 ];
+
+export const aboutMe = ['A', 'b', 'o', 'u', 't', ' ', 'm', 'e'];
