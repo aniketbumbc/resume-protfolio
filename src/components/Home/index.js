@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { jobArray, nameArray } from '../../constant';
 import AnimatedLetters from '../AnimatedLetters';
+import Loader from 'react-loaders';
 import './index.scss';
 
 const Home = () => {
@@ -40,6 +41,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
+        <Loader type="pacman" />
       </div>
     </>
   );
