@@ -2,9 +2,40 @@
   margin: 0 auto;
   padding: 1em;
   max-width: 700px;
-  .profile-image {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+  .header {
+    text-align: center;
+    font-size: 40px;
   }
+  .section-page {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 15px;
+  }
+  .qualifications-list {
+    list-style: none;
+    font-weight: bold;
+  }
+  .wrapper-techstack-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+  }
+  .card-techstack {
+    border: 1px solid rgb(40, 117, 136);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    align-items: center;
+    font-weight: bold;
+  }
+  //   .card-work-history {
+  //     border-left: 1px solid red;
+  //     margin-top: 3em;
+  //     margin-bottom: 3em;
+  //     padding-left: 2em;
+  //   }
+  //   .line-break {
+  //     background-color: red;
+  //     height: 1px;
+  //   }
 }
