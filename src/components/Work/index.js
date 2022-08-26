@@ -33,6 +33,7 @@ const Work = () => {
           </div>
         </section>
         <div className="work-history-wrapper">
+          <div></div>
           <section className="section-page">
             <h2>Work History</h2>
 
@@ -64,7 +65,7 @@ const Work = () => {
 
             <div className="line-break"></div>
 
-            {/* <div className="card-work-history">
+            <div className="card-work-history">
               <strong>🚧 INSTRUCTOR | YOUTUBE, UDEMY, TEACHABLE</strong>
               <p>11/2019 - Present</p>
               <p>
@@ -85,11 +86,11 @@ const Work = () => {
                   more{' '}
                 </li>
               </ul>
-            </div> */}
+            </div>
 
             <div className="line-break"></div>
 
-            {/* <div className="card-work-history">
+            <div className="card-work-history">
               <strong>🚧 SENIOR DEVELOPER | FOI LABS</strong>
               <p>10/2017 - 10/2019</p>
               <p>
@@ -113,11 +114,11 @@ const Work = () => {
                   Managed a small team of developers in expansion of LIMS system
                 </li>
               </ul>
-            </div> */}
+            </div>
 
             <div className="line-break"></div>
 
-            {/* <div className="card-work-history">
+            <div className="card-work-history">
               <strong>🚧 DIGITAL MARKETER | UNIFIVE DIGITAL</strong>
               <p>2014 - 2017</p>
               <p>
@@ -138,7 +139,7 @@ const Work = () => {
                   freelancers
                 </li>
               </ul>
-            </div> */}
+            </div>
           </section>
         </div>
       </div>
