@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #e3e2df;
-  display: block;
+  /* display: block; */
 }
 
 .dashboard {
