@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume-protfolio/static/css/main.4fba7874.css",
-    "main.js": "/resume-protfolio/static/js/main.1facab5d.js",
+    "main.js": "/resume-protfolio/static/js/main.1227ce99.js",
     "static/js/787.25b9b880.chunk.js": "/resume-protfolio/static/js/787.25b9b880.chunk.js",
     "static/media/logo_name.png": "/resume-protfolio/static/media/logo_name.f82379c23d007a030799.png",
     "static/media/helvetica-neu.ttf": "/resume-protfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -12,11 +12,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/resume-protfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/resume-protfolio/index.html",
     "main.4fba7874.css.map": "/resume-protfolio/static/css/main.4fba7874.css.map",
-    "main.1facab5d.js.map": "/resume-protfolio/static/js/main.1facab5d.js.map",
+    "main.1227ce99.js.map": "/resume-protfolio/static/js/main.1227ce99.js.map",
     "787.25b9b880.chunk.js.map": "/resume-protfolio/static/js/787.25b9b880.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fba7874.css",
-    "static/js/main.1facab5d.js"
+    "static/js/main.1227ce99.js"
   ]
 }
