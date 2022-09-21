@@ -52,11 +52,13 @@ const Sidebar = () => {
         </nav>
         <ul>
           <li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a target="_blank" rel="noreferrer" href="">
               <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
             </a>
           </li>
           <li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a target="_blank" rel="noreferrer" href="">
               <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
             </a>

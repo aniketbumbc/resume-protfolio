@@ -7,7 +7,7 @@ import { contactMe } from '../../constant';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const form = useRef();
+  // const form = useRef();
 
   useEffect(() => {
     setTimeout(() => {
