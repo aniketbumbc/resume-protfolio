@@ -4,11 +4,11 @@ const Work = () => {
   return (
     <>
       <div className="main-container">
-        <h1 className="header"> Aniket Bhavsar</h1>
+        <h1 className="header"> Aniket B Bhavsar</h1>
         <section className="section-page">
           <h2>Skills & Qualifications</h2>
           <ul className="qualifications-list">
-            <li>✔️ 7 Years experience with front & backend development.</li>
+            <li>✔️ 5 Years experience with front & backend development.</li>
             <li>✔️ Extensive knowledge in API & Database Design.</li>
             <li>
               ✔️ Experienced content creator on YouTube & community leader.
