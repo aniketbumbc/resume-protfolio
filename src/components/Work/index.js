@@ -1,12 +1,35 @@
+import { useState, useEffect } from 'react';
+import { nameArray, skills, techStack, workHistory } from '../../constant';
 import './index.scss';
+import AnimatedLetters from '../AnimatedLetters';
 
 const Work = () => {
+  const [letterClass, setLetterClass] = useState('text-animate');
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 4000);
+  }, []);
+
   return (
     <>
       <div className="main-container">
-        <h1 className="header"> Aniket B Bhavsar</h1>
+        <h1 className="header">
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={nameArray}
+            idx={15}
+          />
+        </h1>
         <section className="section-page">
-          <h2>Skills & Qualifications</h2>
+          <h2>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={skills}
+              idx={10}
+            />
+          </h2>
           <ul className="qualifications-list">
             <li>✔️ 5 Years experience with front & backend development.</li>
             <li>✔️ Extensive knowledge in API & Database Design.</li>
@@ -16,7 +39,14 @@ const Work = () => {
             <li>✔️ 7 Years experience with running Adwords campaigns & SEO</li>
           </ul>
 
-          <h2>Tech stack</h2>
+          <h2>
+            {' '}
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={techStack}
+              idx={10}
+            />
+          </h2>
           <div className="wrapper-techstack-items">
             <div className="card-techstack">
               <span>Python, JavaScript, NodeJS</span>
@@ -35,7 +65,14 @@ const Work = () => {
         <div className="work-history-wrapper">
           <div></div>
           <section className="section-page">
-            <h2>Work History</h2>
+            <h2>
+              {' '}
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={workHistory}
+                idx={15}
+              />
+            </h2>
 
             <div className="line-break"></div>
             <div className="card-work-history">

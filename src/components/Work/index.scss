@@ -4,11 +4,17 @@
   .header {
     text-align: center;
     font-size: 40px;
+    font-size: 56px;
+    line-height: 53px;
+    color: rgb(40, 117, 136);
   }
   .section-page {
     padding-top: 1em;
     padding-bottom: 1em;
     font-size: 15px;
+    h2 {
+      color: rgb(40, 117, 136);
+    }
   }
   .qualifications-list {
     list-style: none;

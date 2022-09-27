@@ -39,3 +39,46 @@ export const jobArray = [
 export const aboutMe = ['A', 'b', 'o', 'u', 't', ' ', 'm', 'e'];
 
 export const contactMe = ['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e'];
+
+export const skills = [
+  'S',
+  'ki',
+
+  'll',
+
+  's',
+  ' ',
+  '&',
+  ' ',
+  'Q',
+  'u',
+  'a',
+  'li',
+
+  'fi',
+
+  'c',
+  'a',
+  't',
+  'io',
+
+  'n',
+  's',
+];
+
+export const techStack = ['T', 'e', 'c', 'h', ' ', 'S', 't', 'a', 'c', 'k'];
+
+export const workHistory = [
+  'W',
+  'o',
+  'r',
+  'k',
+  ' ',
+  'H',
+  'is',
+
+  't',
+  'o',
+  'r',
+  'y',
+];
