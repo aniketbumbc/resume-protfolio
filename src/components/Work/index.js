@@ -31,7 +31,10 @@ const Work = () => {
             />
           </h2>
           <ul className="qualifications-list">
-            <li>✔️ 5 Years experience with front & backend development.</li>
+            <li>
+              ✔️ 5 Years experience with front & backend development in Java
+              Script.
+            </li>
             <li>✔️ Extensive knowledge in API & Database Design.</li>
             <li>
               ✔️ Experienced content creator on YouTube & community leader.
