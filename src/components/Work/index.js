@@ -33,7 +33,7 @@ const Work = () => {
           <ul className="qualifications-list">
             <li>
               ✔️ 5 Years experience with front & backend development in Java
-              Script.
+              Script,Node JS and Angular, React.
             </li>
             <li>✔️ Extensive knowledge in API & Database Design.</li>
             <li>
