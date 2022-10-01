@@ -40,9 +40,13 @@ const Home = () => {
               />
             </h1>
             <h2>Fullstack Developer / Javascript Developer</h2>
-            <Link to="/contact" className="flat-button">
-              CONTACT ME
-            </Link>
+            <a
+              className="flat-button"
+              href="../../assets/Resume/Aniket_Bhavsar.pdf"
+              download="Aniket_Bhavsar.pdf"
+            >
+              Resume
+            </a>
           </div>
         </div>
         <Loader type="pacman" />
