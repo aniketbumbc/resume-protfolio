@@ -4,6 +4,8 @@ import { jobArray, nameArray } from '../../constant';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import userImage from '../../assets/images/Final-Aniket-Photo.png';
+import { Fade, LightSpeed, Bounce } from 'react-reveal';
+
 import './index.scss';
 
 const Home = () => {
@@ -39,20 +41,26 @@ const Home = () => {
                 idx={25}
               />
             </h1>
-            <h2>Fullstack Developer / Javascript Developer</h2>
-            <a
-              className="flat-button"
-              href="../../assets/Resume/Aniket_Bhavsar.pdf"
-              download="Aniket_Bhavsar.pdf"
-            >
-              Resume
-            </a>
+            <LightSpeed left>
+              <h2>Fullstack Developer / Javascript Developer</h2>
+            </LightSpeed>
+            <Bounce right>
+              <a
+                className="flat-button"
+                href="../../assets/Resume/Aniket_Bhavsar.pdf"
+                download="Aniket_Bhavsar.pdf"
+              >
+                Resume
+              </a>
+            </Bounce>
           </div>
         </div>
         <Loader type="pacman" />
         <div className="image-section">
           <div className="image-box">
-            <img className="image-blob" src={userImage} alt="aniket-b" />
+            <Fade top>
+              <img className="image-blob" src={userImage} alt="aniket-b" />
+            </Fade>
           </div>
         </div>
       </div>
