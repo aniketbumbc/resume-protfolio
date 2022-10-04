@@ -1,5 +1,5 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { jobArray, nameArray } from '../../constant';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';

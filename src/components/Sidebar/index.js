@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
 import LogoBunny from '../../assets/images/logo.png';

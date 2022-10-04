@@ -1,6 +1,5 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
-import { useRef } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import { contactMe } from '../../constant';

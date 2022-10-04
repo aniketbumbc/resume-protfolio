@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { nameArray, skills, techStack, workHistory } from '../../constant';
 import './index.scss';
