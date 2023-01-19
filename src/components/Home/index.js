@@ -4,7 +4,7 @@ import { jobArray, nameArray } from '../../constant';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import userImage from '../../assets/images/Final-Aniket-Photo.png';
-import { Slide, Bounce } from 'react-awesome-reveal';
+import { Slide } from 'react-awesome-reveal';
 
 import './index.scss';
 

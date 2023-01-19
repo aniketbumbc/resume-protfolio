@@ -9,6 +9,7 @@ import Work from './components/Work';
 import { useCallback } from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
+import AnimatedCursor from 'react-animated-cursor';
 
 function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -18,6 +19,26 @@ function App() {
   const particlesLoaded = useCallback(async (container) => {}, []);
   return (
     <>
+      <AnimatedCursor
+        color="40, 117, 136"
+        innerSize={15}
+        outerSize={10}
+        innerScale={1}
+        outerScale={1.7}
+        clickables={[
+          'a',
+          'input[type="text"]',
+          'input[type="email"]',
+          'input[type="number"]',
+          'input[type="submit"]',
+          'input[type="image"]',
+          'label[for]',
+          'select',
+          'textarea',
+          'button',
+          '.link',
+        ]}
+      />
       <Particles
         id="tsparticles"
         init={particlesInit}
