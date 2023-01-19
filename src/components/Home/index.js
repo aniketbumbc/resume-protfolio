@@ -4,6 +4,8 @@ import { jobArray, nameArray } from '../../constant';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import userImage from '../../assets/images/Final-Aniket-Photo.png';
+import { Slide } from 'react-awesome-reveal';
+
 import './index.scss';
 
 const Home = () => {
@@ -41,14 +43,15 @@ const Home = () => {
             </h1>
 
             <h2>Fullstack Developer / Javascript Developer</h2>
-
-            <a
-              className="flat-button"
-              href="../../assets/Resume/Aniket_Bhavsar.pdf"
-              download="Aniket_Bhavsar.pdf"
-            >
-              Resume
-            </a>
+            <Slide>
+              <a
+                className="flat-button"
+                href="../../assets/Resume/Aniket_Bhavsar.pdf"
+                download="Aniket_Bhavsar.pdf"
+              >
+                Resume
+              </a>
+            </Slide>
           </div>
         </div>
         <Loader type="pacman" />
