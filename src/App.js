@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
@@ -6,19 +6,31 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Work from './components/Work';
-import { useCallback } from 'react';
+
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import AnimatedCursor from 'react-animated-cursor';
 
 function App() {
+  const [dynamicColor, setDynamicColor] = useState('#caf0f8');
+  const [colorStatus, setColorStatus] = useState(true);
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
   }, []);
 
+  const handleColorChange = () => {
+    colorStatus ? setColorStatus(false) : setColorStatus(true);
+    colorStatus ? setDynamicColor('#fff8e7') : setDynamicColor('#caf0f8');
+  };
   const particlesLoaded = useCallback(async (container) => {}, []);
   return (
     <>
+      <p>
+        <button className="color-change-btn" onClick={handleColorChange}>
+          {' '}
+          Change color
+        </button>
+      </p>
       <AnimatedCursor
         color="40, 117, 136"
         innerSize={15}
@@ -184,7 +196,7 @@ function App() {
             type: 'inline',
           },
           background: {
-            color: '#F0FFFF',
+            color: dynamicColor,
             image: '',
             position: '50% 50%',
             repeat: 'no-repeat',
@@ -193,7 +205,7 @@ function App() {
         }}
       />
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Layout colorStatus={colorStatus} />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />

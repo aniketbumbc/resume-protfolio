@@ -56,7 +56,7 @@ const Home = () => {
         <Loader type="pacman" />
         <div className="image-section">
           <div className="image-box">
-            <img className="image-blob" src={userImage} alt="aniket-b" />
+            {/* <img className="image-blob" src={userImage} alt="aniket-b" /> */}
           </div>
         </div>
       </div>

@@ -11,15 +11,18 @@ import {
   faUser,
   faBriefcase,
 } from '@fortawesome/free-solid-svg-icons';
+import { Zoom } from 'react-awesome-reveal';
 
-const Sidebar = () => {
+const Sidebar = ({ colorStatus }) => {
   return (
     <>
-      <div className="nav-bar">
-        <Link className="logo" to="/">
-          <img src={LogoBunny} alt="logo" />
-          <img className="sub-logo" src={LogoName} alt="logo Name" />
-        </Link>
+      <div className={colorStatus ? 'nav-bar bgColor' : 'nav-bar bgColorWhite'}>
+        <Zoom direction="right">
+          <Link className="logo" to="/">
+            <img src={LogoBunny} alt="logo" />
+            <img className="sub-logo" src={LogoName} alt="logo Name" />
+          </Link>
+        </Zoom>
         <nav>
           <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome} color="#4d4d4e" />

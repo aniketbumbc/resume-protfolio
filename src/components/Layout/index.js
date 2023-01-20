@@ -3,10 +3,10 @@ import Sidebar from '../Sidebar';
 import { Outlet } from 'react-router-dom';
 import './index.scss';
 
-const Layout = () => {
+const Layout = ({ colorStatus }) => {
   return (
     <>
-      <Sidebar />
+      <Sidebar colorStatus={colorStatus} />
       <Outlet />
     </>
   );
