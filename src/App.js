@@ -6,7 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Work from './components/Work';
-
+import Switch from 'react-switch';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import AnimatedCursor from 'react-animated-cursor';
@@ -14,11 +14,13 @@ import AnimatedCursor from 'react-animated-cursor';
 function App() {
   const [dynamicColor, setDynamicColor] = useState('#caf0f8');
   const [colorStatus, setColorStatus] = useState(true);
+  const [swchitOff, setSwtichOff] = useState(true);
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
   }, []);
 
   const handleColorChange = () => {
+    swchitOff ? setSwtichOff(false) : setSwtichOff(true);
     colorStatus ? setColorStatus(false) : setColorStatus(true);
     colorStatus ? setDynamicColor('#fff8e7') : setDynamicColor('#caf0f8');
   };
@@ -26,10 +28,19 @@ function App() {
   return (
     <>
       <p>
-        <button className="color-change-btn" onClick={handleColorChange}>
-          {' '}
-          Change color
-        </button>
+        <Switch
+          className="color-change-btn"
+          onChange={handleColorChange}
+          checked={swchitOff}
+          offColor="#caf0f8"
+          onColor="#fff8e7"
+          offHandleColor="#9a1750"
+          onHandleColor="#287588"
+          checkedIcon={false}
+          uncheckedIcon={true}
+          height={25}
+          width={55}
+        />
       </p>
       <AnimatedCursor
         color="40, 117, 136"
