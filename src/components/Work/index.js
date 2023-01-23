@@ -36,7 +36,7 @@ const Work = () => {
               ✔️ 5 Years experience with front & backend development in Java
               Script,Node JS and Angular, React.
             </li>
-            <li>✔️ Extensive knowledge in API & Database Design.</li>
+            <li>✔️ Extensive knowledge in API development.</li>
             <li>
               ✔️ Experienced content creator on YouTube & community leader.
             </li>
