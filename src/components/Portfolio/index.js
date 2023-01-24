@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 //import { nameArray, skills, techStack, workHistory } from '../../constant';
 import './index.scss';
+import Loader from 'react-loaders';
 import designSketch from '../../assets/images/design-1.jpg';
 //import AnimatedLetters from '../AnimatedLetters';
 
@@ -32,16 +33,15 @@ const Portfolio = () => {
           <img src={designSketch} alt="fireSpot" className="sketch-image" />
 
           <span className="image-description">
-           "Thanks for the great session and detailed run-through Lola! <br/>
-           It was much more thorough than a few other critiques   <br/>
-           I’ve received and the session really touched on   <br/>
-            how I should be communicating about the skills 
-            I can bring to the table.
-            
-          </span> 
+            "Thanks for the great session and detailed run-through Lola! <br />
+            It was much more thorough than a few other critiques <br />
+            I’ve received and the session really touched on <br />
+            how I should be communicating about the skills I can bring to the
+            table.
+          </span>
         </div>
       </div>
-
+      <Loader type="pacman" />
       <div className="portfolio-container">
         <div className="text-section">
           Get feedback for your UX portfolio What differentiates a good UX
