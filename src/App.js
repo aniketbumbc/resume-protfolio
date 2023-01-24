@@ -5,11 +5,11 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import Work from './components/Work';
 import Switch from 'react-switch';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import AnimatedCursor from 'react-animated-cursor';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const [dynamicColor, setDynamicColor] = useState('#caf0f8');
@@ -220,7 +220,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="work" element={<Work />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          {/* <Route path="work" element={<Work />} /> */}
         </Route>
       </Routes>
     </>
