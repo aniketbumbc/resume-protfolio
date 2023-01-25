@@ -15,18 +15,6 @@
       margin-left: 10%;
       border-left: 2px solid rgb(40, 117, 136);
       height: 150px;
-
-      .navigation-btn {
-        font-family: 'Quattrocento';
-        background-color: rgba(245, 245, 245, 0);
-        color: rgb(40, 117, 136);
-        border: 1px solid #9a1750;
-        margin-left: 30px;
-        padding: 10px;
-        font-size: 15px;
-        text-decoration: none;
-        font-weight: bold;
-      }
     }
     .main-text-para {
       margin-left: 5%;
@@ -68,5 +56,48 @@
       display: block;
       padding: 10px;
     }
+  }
+
+  .ecommerce-image {
+    height: auto;
+    width: 650px;
+    object-fit: cover;
+    box-shadow: 5px 8px #809eac;
+  }
+
+  .image-section-ecommerce {
+    margin-top: 25%;
+    border-left: 2px solid rgb(40, 117, 136);
+    height: 150px;
+    padding: 15px;
+  }
+  .ecommerce-main-text {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin: 10px;
+  }
+
+  .navigation-btn {
+    font-family: 'Quattrocento';
+    background-color: rgba(245, 245, 245, 0);
+    color: rgb(40, 117, 136);
+    border: 1px solid #9a1750;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 85px;
+    text-align: center;
+  }
+  .case-study-btn {
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .ecommerce-text-para {
+    margin: 2%;
+    width: 50%;
   }
 }

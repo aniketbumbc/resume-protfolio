@@ -96,3 +96,23 @@ export const productDesignText = [
   'c',
   't',
 ];
+
+export const ohvazBreakfast = [
+  'O',
+  'h',
+  'v',
+  'a',
+  'z',
+  '',
+  'E',
+  '-',
+  'B',
+  'r',
+  'e',
+  'a',
+  'k',
+  'f',
+  'a',
+  's',
+  't',
+];

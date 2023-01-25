@@ -4,8 +4,9 @@ import { useState, useEffect } from 'react';
 import './index.scss';
 import Loader from 'react-loaders';
 import designSketch from '../../assets/images/design-1.jpg';
+import ecommerce from '../../assets/images/ecommerce.jpg';
 import AnimatedLetters from '../AnimatedLetters';
-import { productDesignText } from '../../constant';
+import { productDesignText, ohvazBreakfast } from '../../constant';
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -13,7 +14,7 @@ const Portfolio = () => {
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover');
-    }, 4000);
+    }, 10000);
   }, []);
 
   return (
@@ -53,16 +54,29 @@ const Portfolio = () => {
         </div>
       </div>
       <Loader type="pacman" />
+
       <div className="portfolio-container">
         <div className="text-section">
-          Get feedback for your UX portfolio What differentiates a good UX
-          portfolio from a great portfolio? It's feedback. Empower you to build
-          your UX portfolio and land your dream job.
+          <img src={ecommerce} alt="fireSpot" className="ecommerce-image" />
         </div>
 
-        <div className="image-section">
-          <h1> Image coming soon.....</h1>
-          <p> Some Description of image</p>
+        <div className="image-section-ecommerce">
+          <span className="ecommerce-main-text">
+            {' '}
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={ohvazBreakfast}
+              idx={15}
+            />
+          </span>
+          <p className="ecommerce-text-para">
+            I was the sole web designer for a leading conversational AI training
+            platform for bank accounts. The new design reduced task times by 68%
+            and improved users’ subjective satisfaction by 139%.
+          </p>{' '}
+          <div className="navigation-btn case-study-btn" href="teambition.html">
+            Case Study
+          </div>
         </div>
       </div>
 
