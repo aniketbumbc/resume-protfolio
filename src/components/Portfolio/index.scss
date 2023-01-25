@@ -15,21 +15,58 @@
       margin-left: 10%;
       border-left: 2px solid rgb(40, 117, 136);
       height: 150px;
+
+      .navigation-btn {
+        font-family: 'Quattrocento';
+        background-color: rgba(245, 245, 245, 0);
+        color: rgb(40, 117, 136);
+        border: 1px solid #9a1750;
+        margin-left: 30px;
+        padding: 10px;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
     }
     .main-text-para {
       margin-left: 5%;
+      margin-bottom: 25px;
     }
   }
   .image-section {
-   
     .sketch-image {
       width: 400px;
       height: 200px;
-      
+      object-fit: cover;
+      box-shadow: 5px 8px #809eac;
     }
+    // img {
+    //   /* adjust the below to control the 3D effect */
+    //   --x: 10px;
+    //   --y: 20px;
+    //   transform: perspective(1000px) rotateX(var(--_a, 40deg));
+    //   /* */
+    //   clip-path: polygon(
+    //     var(--y) var(--y),
+    //     calc(100% - var(--y)) var(--y),
+    //     calc(100% - var(--y)) calc(100% - var(--y)),
+    //     calc(100% - var(--y) - var(--x)) var(--_c, 100%),
+    //     calc(var(--x) + var(--y)) var(--_c, 100%),
+    //     var(--y) calc(100% - var(--y))
+    //   );
+    //   outline: var(--y) solid rgba(0, 0, 0, 0.4);
+    //   outline-offset: calc(-1 * var(--y));
+    //   padding: var(--y) var(--y) 0 var(--y);
+    //   transition: 1s;
+    //   &:hover {
+    //     --_a: 0deg;
+    //     --_c: calc(100% - var(--y));
+    //   }
+    // }
+
     .image-description {
-       display: block;  
-       padding:10px;
+      display: block;
+      padding: 10px;
     }
   }
 }

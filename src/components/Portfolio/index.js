@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 import './index.scss';
 import Loader from 'react-loaders';
 import designSketch from '../../assets/images/design-1.jpg';
-//import AnimatedLetters from '../AnimatedLetters';
+import AnimatedLetters from '../AnimatedLetters';
+import { productDesignText } from '../../constant';
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -20,12 +21,22 @@ const Portfolio = () => {
       <div className="portfolio-container">
         <div className="text-section">
           <div className="intro-section">
-            <span className="main-text"> Get design for your product </span>
+            <span className="main-text">
+              {' '}
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={productDesignText}
+                idx={15}
+              />
+            </span>
             <p className="main-text-para">
               What differentiates a good UX portfolio from a great portfolio?
               It's feedback. Empower you to build your UX portfolio and land
               your dream job.
             </p>
+            <a class="navigation-btn" href="teambition.html">
+              Book With Aniket
+            </a>
           </div>
         </div>
 
