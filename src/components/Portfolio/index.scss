@@ -100,4 +100,21 @@
     margin: 2%;
     width: 50%;
   }
+
+  .sketch-image-todoapp {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 5px 8px #809eac;
+  }
+
+  .todo-header {
+    margin-top: 20%;
+  }
+  .todo-image-para {
+    text-align: center;
+  }
+  .portfolio-header {
+    margin-top: 40%;
+  }
 }

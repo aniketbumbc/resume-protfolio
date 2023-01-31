@@ -5,8 +5,15 @@ import './index.scss';
 import Loader from 'react-loaders';
 import designSketch from '../../assets/images/design-1.jpg';
 import ecommerce from '../../assets/images/ecommerce.jpg';
+import learnTodo from '../../assets/images/learnTodo.png';
+import portfolio from '../../assets/images/porfolio-template.png';
 import AnimatedLetters from '../AnimatedLetters';
-import { productDesignText, ohvazBreakfast } from '../../constant';
+import {
+  productDesignText,
+  ohvazBreakfast,
+  learnTodoText,
+  portfolioText,
+} from '../../constant';
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -81,54 +88,66 @@ const Portfolio = () => {
       </div>
 
       <div className="portfolio-container">
-        <div className="text-section">
-          Get feedback for your UX portfolio What differentiates a good UX
-          portfolio from a great portfolio? It's feedback. Empower you to build
-          your UX portfolio and land your dream job.
+        <div className="text-section todo-header">
+          <div className="intro-section">
+            <span className="main-text">
+              {' '}
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={learnTodoText}
+                idx={15}
+              />
+            </span>
+            <p className="main-text-para">
+              What differentiates a good UX portfolio from a great portfolio?
+              It's feedback. Empower you to build your UX portfolio and land
+              your dream job.
+            </p>
+            <a class="navigation-btn" href="teambition.html">
+              Case Study
+            </a>
+          </div>
         </div>
 
         <div className="image-section">
-          <h1> Image coming soon.....</h1>
-          <p> Some Description of image</p>
+          <img
+            src={learnTodo}
+            alt="fireSpot"
+            className="sketch-image-todoapp"
+          />
+
+          <span className="image-description todo-image-para">
+            "Thanks for the great session and detailed run-through Lola! <br />
+            It was much more thorough than a few other critiques <br />
+            I’ve received and the session really touched on <br />
+            how I should be communicating about the skills I can bring to the
+            table.
+          </span>
         </div>
       </div>
 
       <div className="portfolio-container">
         <div className="text-section">
-          Get feedback for your UX portfolio What differentiates a good UX
-          portfolio from a great portfolio? It's feedback. Empower you to build
-          your UX portfolio and land your dream job.
+          <img src={portfolio} alt="fireSpot" className="ecommerce-image" />
         </div>
 
-        <div className="image-section">
-          <h1> Image coming soon.....</h1>
-          <p> Some Description of image</p>
-        </div>
-      </div>
-
-      <div className="portfolio-container">
-        <div className="text-section">
-          Get feedback for your UX portfolio What differentiates a good UX
-          portfolio from a great portfolio? It's feedback. Empower you to build
-          your UX portfolio and land your dream job.
-        </div>
-
-        <div className="image-section">
-          <h1> Image coming soon.....</h1>
-          <p> Some Description of image</p>
-        </div>
-      </div>
-
-      <div className="portfolio-container">
-        <div className="text-section">
-          Get feedback for your UX portfolio What differentiates a good UX
-          portfolio from a great portfolio? It's feedback. Empower you to build
-          your UX portfolio and land your dream job.
-        </div>
-
-        <div className="image-section">
-          <h1> Image coming soon.....</h1>
-          <p> Some Description of image</p>
+        <div className="image-section-ecommerce portfolio-header">
+          <span className="ecommerce-main-text">
+            {' '}
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={portfolioText}
+              idx={15}
+            />
+          </span>
+          <p className="ecommerce-text-para">
+            I was the sole web designer for a leading conversational AI training
+            platform for bank accounts. The new design reduced task times by 68%
+            and improved users’ subjective satisfaction by 139%.
+          </p>{' '}
+          <div className="navigation-btn case-study-btn" href="teambition.html">
+            Case Study
+          </div>
         </div>
       </div>
 

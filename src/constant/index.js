@@ -116,3 +116,26 @@ export const ohvazBreakfast = [
   's',
   't',
 ];
+
+export const learnTodoText = ['L', 'e', 'a', 'r', 'n', '', 'T', 'o', 'd', 'o'];
+export const portfolioText = [
+  'F',
+  'r',
+  'e',
+  'e',
+  'l',
+  'a',
+  'n',
+  'c',
+  'e',
+  ' ',
+  'P',
+  'o',
+  'r',
+  't',
+  'f',
+  'o',
+  'l',
+  'i',
+  'o',
+];
