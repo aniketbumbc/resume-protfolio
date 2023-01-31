@@ -49,7 +49,12 @@ const Portfolio = () => {
         </div>
 
         <div className="image-section">
-          <img src={designSketch} alt="fireSpot" className="sketch-image" />
+          <img
+            src={designSketch}
+            alt="fireSpot"
+            className="sketch-image"
+            loading="lazy"
+          />
 
           <span className="image-description">
             "Thanks for the great session and detailed run-through Lola! <br />
@@ -64,7 +69,12 @@ const Portfolio = () => {
 
       <div className="portfolio-container">
         <div className="text-section">
-          <img src={ecommerce} alt="fireSpot" className="ecommerce-image" />
+          <img
+            src={ecommerce}
+            alt="fireSpot"
+            className="ecommerce-image"
+            loading="lazy"
+          />
         </div>
 
         <div className="image-section-ecommerce">
@@ -113,6 +123,7 @@ const Portfolio = () => {
           <img
             src={learnTodo}
             alt="fireSpot"
+            loading="lazy"
             className="sketch-image-todoapp"
           />
 
@@ -128,7 +139,12 @@ const Portfolio = () => {
 
       <div className="portfolio-container">
         <div className="text-section">
-          <img src={portfolio} alt="fireSpot" className="ecommerce-image" />
+          <img
+            src={portfolio}
+            alt="fireSpot"
+            className="ecommerce-image"
+            loading="lazy"
+          />
         </div>
 
         <div className="image-section-ecommerce portfolio-header">
