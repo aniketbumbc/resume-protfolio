@@ -2,21 +2,27 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 //import { nameArray, skills, techStack, workHistory } from '../../constant';
 import './index.scss';
+import { useNavigate } from 'react-router-dom';
 import Loader from 'react-loaders';
 import designSketch from '../../assets/images/design-1.jpg';
 import ecommerce from '../../assets/images/ecommerce.jpg';
 import learnTodo from '../../assets/images/learnTodo.png';
 import portfolio from '../../assets/images/porfolio-template.png';
 import AnimatedLetters from '../AnimatedLetters';
+import breakfastDesktop from '../../assets/images/case study/breakfast-desktop.png';
 import {
   productDesignText,
   ohvazBreakfast,
   learnTodoText,
   portfolioText,
+  breakFastProject,
+  breakFastDescriptionBody,
+  breakFastDescriptionIntro,
 } from '../../constant';
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
+  let navigate = useNavigate();
 
   useEffect(() => {
     setTimeout(() => {
@@ -42,7 +48,7 @@ const Portfolio = () => {
               It's feedback. Empower you to build your UX portfolio and land
               your dream job.
             </p>
-            <a class="navigation-btn" href="teambition.html">
+            <a className="navigation-btn" href="teambition.html">
               Book With Aniket
             </a>
           </div>
@@ -91,7 +97,20 @@ const Portfolio = () => {
             platform for bank accounts. The new design reduced task times by 68%
             and improved users’ subjective satisfaction by 139%.
           </p>{' '}
-          <div className="navigation-btn case-study-btn" href="teambition.html">
+          <div
+            className="navigation-btn case-study-btn"
+            href="teambition.html"
+            onClick={() =>
+              navigate('/casestudy', {
+                state: {
+                  title: breakFastProject,
+                  descriptionIntro: breakFastDescriptionIntro,
+                  descriptionBody: breakFastDescriptionBody,
+                  imageSrc: breakfastDesktop,
+                },
+              })
+            }
+          >
             Case Study
           </div>
         </div>
@@ -113,7 +132,7 @@ const Portfolio = () => {
               It's feedback. Empower you to build your UX portfolio and land
               your dream job.
             </p>
-            <a class="navigation-btn" href="teambition.html">
+            <a className="navigation-btn" href="teambition.html">
               Case Study
             </a>
           </div>

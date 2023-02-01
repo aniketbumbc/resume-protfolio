@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import CaseStudy from './components/CaseStudy';
 import Switch from 'react-switch';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
@@ -27,7 +28,7 @@ function App() {
   const particlesLoaded = useCallback(async (container) => {}, []);
   return (
     <>
-      <p>
+      <>
         <Switch
           className="color-change-btn"
           onChange={handleColorChange}
@@ -41,7 +42,7 @@ function App() {
           height={25}
           width={55}
         />
-      </p>
+      </>
       <AnimatedCursor
         color="40, 117, 136"
         innerSize={15}
@@ -221,6 +222,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="portfolio" element={<Portfolio />} />
+          <Route path="casestudy" element={<CaseStudy />} />
           {/* <Route path="work" element={<Work />} /> */}
         </Route>
       </Routes>
