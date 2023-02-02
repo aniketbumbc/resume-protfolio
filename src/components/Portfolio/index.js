@@ -18,6 +18,7 @@ import {
   breakFastProject,
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
+  breakFastProjectData,
 } from '../../constant';
 
 const Portfolio = () => {
@@ -107,6 +108,7 @@ const Portfolio = () => {
                   descriptionIntro: breakFastDescriptionIntro,
                   descriptionBody: breakFastDescriptionBody,
                   imageSrc: breakfastDesktop,
+                  infoSection: breakFastProjectData,
                 },
               })
             }

@@ -3,7 +3,14 @@ import { useLocation } from 'react-router-dom';
 
 const CaseStudy = () => {
   const { state } = useLocation();
-  const { title, descriptionIntro, descriptionBody, imageSrc } = state;
+  const {
+    title,
+    descriptionIntro,
+    descriptionBody,
+    imageSrc,
+    infoSection,
+  } = state;
+
   return (
     <>
       <div className="casestudy-container">
@@ -27,21 +34,17 @@ const CaseStudy = () => {
 
       <div className="rectange">
         <div className="cotainer-data">
-          <div>
-            <p className="title"> Role</p>
-            <p className="information">Entreprenurial Project</p>
-            <p className="information">Project Lead</p>
-          </div>
-          <div>
-            <p className="title"> Team</p>
-            <p className="information">Entreprenurial Project</p>
-            <p className="information">Project Lead</p>
-          </div>
-          <div>
-            <p className="title"> Duration</p>
-            <p className="information">Entreprenurial Project</p>
-            <p className="information">Project Lead</p>
-          </div>
+          {infoSection.map((value) => {
+            return (
+              <>
+                <div>
+                  <p className="title"> {value.title}</p>
+                  <p className="information">{value.information}</p>
+                  <p className="information">{value.shortInfo}</p>
+                </div>
+              </>
+            );
+          })}
         </div>
       </div>
     </>

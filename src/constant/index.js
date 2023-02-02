@@ -145,3 +145,21 @@ export const breakFastDescriptionIntro =
   'An 8-month long research study into the college mental health care space';
 export const breakFastDescriptionBody =
   'The Elliewood Fellowship was a one-year program that gave top UVA graduates a viable path to start ventures in Charlottesville and contribute to the local entrepreneurial ecosystem.';
+
+export const breakFastProjectData = [
+  {
+    title: 'Role',
+    information: 'Entreprenurial Project',
+    shortInfo: 'Project Lead',
+  },
+  {
+    title: 'Team',
+    information: 'Entreprenurial Project',
+    shortInfo: 'Project Lead',
+  },
+  {
+    title: 'Duration',
+    information: 'Entreprenurial Project',
+    shortInfo: 'Project Lead',
+  },
+];
