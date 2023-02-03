@@ -47,6 +47,15 @@ const CaseStudy = () => {
           })}
         </div>
       </div>
+
+      <div className="main-image">
+        <img
+          src={imageSrc}
+          alt="fireSpot"
+          loading="lazy"
+          className="sketch-image-todoapp"
+        />
+      </div>
     </>
   );
 };
