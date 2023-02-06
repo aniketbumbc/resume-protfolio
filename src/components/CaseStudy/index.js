@@ -16,9 +16,7 @@ const CaseStudy = () => {
       <div className="casestudy-container">
         <div className="information-containter">
           <div className="project-title">{title}</div>
-
           <p>{descriptionIntro}</p>
-
           <p>{descriptionBody}</p>
         </div>
 
