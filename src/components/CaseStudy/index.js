@@ -9,6 +9,7 @@ const CaseStudy = () => {
     descriptionBody,
     imageSrc,
     infoSection,
+    poster,
   } = state;
 
   return (
@@ -48,7 +49,7 @@ const CaseStudy = () => {
 
       <div className="main-image">
         <img
-          src={imageSrc}
+          src={poster}
           alt="fireSpot"
           loading="lazy"
           className="sketch-image-todoapp"

@@ -9,7 +9,8 @@ import ecommerce from '../../assets/images/ecommerce.jpg';
 import learnTodo from '../../assets/images/learnTodo.png';
 import portfolio from '../../assets/images/porfolio-template.png';
 import AnimatedLetters from '../AnimatedLetters';
-import breakfastDesktop from '../../assets/images/case study/breakfast-desktop.png';
+import breakfastDesktop from '../../assets/images/case study/Break-fast poster.png';
+import breakfastPoster from '../../assets/images/case study/breakfast-desktop.png';
 import {
   productDesignText,
   ohvazBreakfast,
@@ -107,8 +108,9 @@ const Portfolio = () => {
                   title: breakFastProject,
                   descriptionIntro: breakFastDescriptionIntro,
                   descriptionBody: breakFastDescriptionBody,
-                  imageSrc: breakfastDesktop,
+                  imageSrc: breakfastPoster,
                   infoSection: breakFastProjectData,
+                  poster: breakfastDesktop,
                 },
               })
             }
