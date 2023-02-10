@@ -101,7 +101,6 @@ const Portfolio = () => {
           </p>{' '}
           <div
             className="navigation-btn case-study-btn"
-            href="teambition.html"
             onClick={() =>
               navigate('/casestudy', {
                 state: {
@@ -136,9 +135,23 @@ const Portfolio = () => {
               It's feedback. Empower you to build your UX portfolio and land
               your dream job.
             </p>
-            <a className="navigation-btn" href="teambition.html">
+            <div
+              className="navigation-btn case-study-btn"
+              onClick={() =>
+                navigate('/casestudy', {
+                  state: {
+                    title: breakFastProject,
+                    descriptionIntro: breakFastDescriptionIntro,
+                    descriptionBody: breakFastDescriptionBody,
+                    imageSrc: breakfastPoster,
+                    infoSection: breakFastProjectData,
+                    poster: breakfastDesktop,
+                  },
+                })
+              }
+            >
               Case Study
-            </a>
+            </div>
           </div>
         </div>
 
@@ -184,7 +197,21 @@ const Portfolio = () => {
             platform for bank accounts. The new design reduced task times by 68%
             and improved users’ subjective satisfaction by 139%.
           </p>{' '}
-          <div className="navigation-btn case-study-btn" href="teambition.html">
+          <div
+            className="navigation-btn case-study-btn"
+            onClick={() =>
+              navigate('/casestudy', {
+                state: {
+                  title: breakFastProject,
+                  descriptionIntro: breakFastDescriptionIntro,
+                  descriptionBody: breakFastDescriptionBody,
+                  imageSrc: breakfastPoster,
+                  infoSection: breakFastProjectData,
+                  poster: breakfastDesktop,
+                },
+              })
+            }
+          >
             Case Study
           </div>
         </div>
