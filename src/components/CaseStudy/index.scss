@@ -59,7 +59,27 @@
 }
 
 .main-image {
-  margin: 5%;
+  margin: 2%;
   display: flex;
   justify-content: center;
+}
+
+.navigation-container {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .inner-navigation-container {
+    margin-bottom: 5%;
+
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+    .navigation-text {
+      text-transform: uppercase;
+      h3 {
+        text-decoration: underline;
+      }
+    }
+  }
 }
