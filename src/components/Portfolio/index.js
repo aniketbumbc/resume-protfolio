@@ -9,6 +9,7 @@ import ecommerce from '../../assets/images/ecommerce.jpg';
 import learnTodo from '../../assets/images/learnTodo.png';
 import portfolio from '../../assets/images/porfolio-template.png';
 import AnimatedLetters from '../AnimatedLetters';
+import renovationProject from '../../assets/images/renovation.png';
 import breakfastDesktop from '../../assets/images/case study/Break-fast poster.png';
 import breakfastPoster from '../../assets/images/case study/breakfast-desktop.png';
 import {
@@ -20,6 +21,7 @@ import {
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
   breakFastProjectData,
+  renoText,
 } from '../../constant';
 
 const Portfolio = () => {
@@ -218,15 +220,56 @@ const Portfolio = () => {
       </div>
 
       <div className="portfolio-container">
-        <div className="text-section">
-          Get feedback for your UX portfolio What differentiates a good UX
-          portfolio from a great portfolio? It's feedback. Empower you to build
-          your UX portfolio and land your dream job.
+        <div className="text-section todo-header">
+          <div className="intro-section">
+            <span className="main-text">
+              {' '}
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={renoText}
+                idx={15}
+              />
+            </span>
+            <p className="main-text-para">
+              What differentiates a good UX portfolio from a great portfolio?
+              It's feedback. Empower you to build your UX portfolio and land
+              your dream job.
+            </p>
+            <div
+              className="navigation-btn case-study-btn"
+              onClick={() =>
+                navigate('/casestudy', {
+                  state: {
+                    title: breakFastProject,
+                    descriptionIntro: breakFastDescriptionIntro,
+                    descriptionBody: breakFastDescriptionBody,
+                    imageSrc: breakfastPoster,
+                    infoSection: breakFastProjectData,
+                    poster: breakfastDesktop,
+                  },
+                })
+              }
+            >
+              Case Study
+            </div>
+          </div>
         </div>
 
         <div className="image-section">
-          <h1> Image coming soon.....</h1>
-          <p> Some Description of image</p>
+          <img
+            src={renovationProject}
+            alt="fireSpot"
+            loading="lazy"
+            className="ecommerce-image"
+          />
+
+          <span className="image-description todo-image-para">
+            "Thanks for the great session and detailed run-through Lola! <br />
+            It was much more thorough than a few other critiques <br />
+            I’ve received and the session really touched on <br />
+            how I should be communicating about the skills I can bring to the
+            table.
+          </span>
         </div>
       </div>
     </>

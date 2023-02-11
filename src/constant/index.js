@@ -163,3 +163,5 @@ export const breakFastProjectData = [
     shortInfo: 'Project Lead',
   },
 ];
+
+export const renoText = ['R', 'e', 'n', 'o'];
