@@ -195,9 +195,9 @@ const Portfolio = () => {
             />
           </span>
           <p className="ecommerce-text-para">
-            I was the sole web designer for a leading conversational AI training
-            platform for bank accounts. The new design reduced task times by 68%
-            and improved users’ subjective satisfaction by 139%.
+            I was the sole web designer for a leading conversational AI tool
+            training platform for bank accounts. The new design reduced task
+            times by 68% and improved users’ subjective satisfaction by 139%.
           </p>{' '}
           <div
             className="navigation-btn case-study-btn"
