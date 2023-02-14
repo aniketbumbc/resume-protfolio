@@ -141,6 +141,7 @@ export const portfolioText = [
 ];
 
 export const breakFastProject = 'OhvazE-Breakfast';
+export const learnTodoTitle = 'Learn Todo App';
 export const breakFastDescriptionIntro =
   'An 8-month long research study into the college mental health care space';
 export const breakFastDescriptionBody =

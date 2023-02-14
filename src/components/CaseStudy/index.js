@@ -10,6 +10,7 @@ const CaseStudy = () => {
     imageSrc,
     infoSection,
     poster,
+    casestudy,
   } = state;
 
   return (
@@ -30,8 +31,7 @@ const CaseStudy = () => {
           />
         </div>
       </div>
-
-      <div className="rectange">
+      <div className="rectangle">
         <div className="cotainer-data">
           {infoSection.map((value) => {
             return (
@@ -46,32 +46,37 @@ const CaseStudy = () => {
           })}
         </div>
       </div>
-
-      <div className="main-image">
-        <img
-          src={poster}
-          alt="fireSpot"
-          loading="lazy"
-          className="sketch-image-todoapp"
-        />
-      </div>
-      <div className="navigation-container">
-        <div className="inner-navigation-container">
-          <div className="navigation-text">
-            <h2>
-              PREVIOUS: <span> E-Breakfast</span>
-            </h2>{' '}
-            <h3 className="case-study">View Case Study</h3>
+      {casestudy ? (
+        <>
+          <div className="main-image">
+            <img
+              src={poster}
+              alt="fireSpot"
+              loading="lazy"
+              className="sketch-image-todoapp"
+            />
           </div>
-          <div className="navigation-text">
-            <h2>
-              NEXT:<span> E-Education</span>
-            </h2>
+          <div className="navigation-container">
+            <div className="inner-navigation-container">
+              <div className="navigation-text">
+                <h2>
+                  PREVIOUS: <span> E-Breakfast</span>
+                </h2>{' '}
+                <h3 className="case-study">View Case Study</h3>
+              </div>
+              <div className="navigation-text">
+                <h2>
+                  NEXT:<span> E-Education</span>
+                </h2>
 
-            <h3 className="case-study">View Case Study</h3>
+                <h3 className="case-study">View Case Study</h3>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </>
+      ) : (
+        <h1> No Hello</h1>
+      )}
     </>
   );
 };

@@ -12,6 +12,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import renovationProject from '../../assets/images/renovation.png';
 import breakfastDesktop from '../../assets/images/case study/Break-fast poster.png';
 import breakfastPoster from '../../assets/images/case study/breakfast-desktop.png';
+import leantodoapp from '../../assets/images/case study/learntodoapp-desktop.png';
 import {
   productDesignText,
   ohvazBreakfast,
@@ -22,6 +23,7 @@ import {
   breakFastDescriptionIntro,
   breakFastProjectData,
   renoText,
+  learnTodoTitle,
 } from '../../constant';
 
 const Portfolio = () => {
@@ -112,6 +114,7 @@ const Portfolio = () => {
                   imageSrc: breakfastPoster,
                   infoSection: breakFastProjectData,
                   poster: breakfastDesktop,
+                  casestudy: true,
                 },
               })
             }
@@ -142,10 +145,10 @@ const Portfolio = () => {
               onClick={() =>
                 navigate('/casestudy', {
                   state: {
-                    title: breakFastProject,
+                    title: learnTodoTitle,
                     descriptionIntro: breakFastDescriptionIntro,
                     descriptionBody: breakFastDescriptionBody,
-                    imageSrc: breakfastPoster,
+                    imageSrc: leantodoapp,
                     infoSection: breakFastProjectData,
                     poster: breakfastDesktop,
                   },
@@ -260,7 +263,7 @@ const Portfolio = () => {
             src={renovationProject}
             alt="fireSpot"
             loading="lazy"
-            className="ecommerce-image"
+            className="sketch-image-todoapp"
           />
 
           <span className="image-description todo-image-para">
