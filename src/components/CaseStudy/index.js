@@ -68,14 +68,53 @@ const CaseStudy = () => {
                 <h2>
                   NEXT:<span> E-Education</span>
                 </h2>
-
                 <h3 className="case-study">View Case Study</h3>
               </div>
             </div>
           </div>
         </>
       ) : (
-        <h1> No Hello</h1>
+        <>
+          <div className="withoutposter-container">
+            <div>
+              <h2> Here come problem statment</h2>
+            </div>
+
+            <div>
+              <h2> Here come illustartion photo</h2>
+            </div>
+          </div>
+
+          <div className="withoutposter-container">
+            <div>
+              <h2> Here come problem statment</h2>
+            </div>
+
+            <div>
+              <h2> Here come illustartion photo</h2>
+            </div>
+          </div>
+
+          <div className="withoutposter-container">
+            <div>
+              <h2> Here come problem statment</h2>
+            </div>
+
+            <div>
+              <h2> Here come illustartion photo</h2>
+            </div>
+          </div>
+
+          <div className="withoutposter-container">
+            <div>
+              <h2> Here come problem statment</h2>
+            </div>
+
+            <div>
+              <h2> Here come illustartion photo</h2>
+            </div>
+          </div>
+        </>
       )}
     </>
   );
