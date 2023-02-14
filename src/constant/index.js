@@ -1,4 +1,4 @@
-export const nameArray = [' ', 'P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o'];
+export const nameArray = [' ', ' A', 'n', 'i', 'k', 'e', 't', ' ', 'B.'];
 export const jobArray = [
   'S',
   'o',
