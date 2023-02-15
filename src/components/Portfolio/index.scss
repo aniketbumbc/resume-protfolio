@@ -102,8 +102,10 @@
   }
 
   .sketch-image-todoapp {
+    width: 400px;
     height: auto;
     object-fit: cover;
+    box-shadow: 5px 8px #809eac;
   }
 
   .todo-header {
