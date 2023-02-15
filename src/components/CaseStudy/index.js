@@ -1,6 +1,9 @@
 import './index.scss';
 import { useLocation } from 'react-router-dom';
 import illustrationProblem from '../../assets/images/case study/illustration-1.png';
+import illustrationOne from '../../assets/images/case study/sitting study-3.png';
+import illustrationTwo from '../../assets/images/case study/sitting study-2.jpeg';
+import illustrationThree from '../../assets/images/case study/sitting study.jpeg';
 
 const CaseStudy = () => {
   const { state } = useLocation();
@@ -116,6 +119,14 @@ const CaseStudy = () => {
 
           <div className="withoutposter-container">
             <div>
+              <img
+                src={illustrationOne}
+                alt="fireSpot"
+                loading="lazy"
+                className="sketch-image-todoapp"
+              />
+            </div>
+            <div>
               <div className="problem-para">
                 {' '}
                 <hr className="hr-line" />
@@ -140,15 +151,6 @@ const CaseStudy = () => {
                   Virginia's Social Entreprenuership Competition.
                 </p>
               </div>
-            </div>
-
-            <div>
-              <img
-                src={illustrationProblem}
-                alt="fireSpot"
-                loading="lazy"
-                className="sketch-image-todoapp"
-              />
             </div>
           </div>
 
@@ -192,6 +194,14 @@ const CaseStudy = () => {
 
           <div className="withoutposter-container">
             <div>
+              <img
+                src={illustrationThree}
+                alt="fireSpot"
+                loading="lazy"
+                className="sketch-image-todoapp"
+              />
+            </div>
+            <div>
               <div className="problem-para">
                 {' '}
                 <hr className="hr-line" />
@@ -216,15 +226,6 @@ const CaseStudy = () => {
                   Virginia's Social Entreprenuership Competition.
                 </p>
               </div>
-            </div>
-
-            <div>
-              <img
-                src={illustrationProblem}
-                alt="fireSpot"
-                loading="lazy"
-                className="sketch-image-todoapp"
-              />
             </div>
           </div>
 
@@ -258,7 +259,7 @@ const CaseStudy = () => {
 
             <div>
               <img
-                src={illustrationProblem}
+                src={illustrationTwo}
                 alt="fireSpot"
                 loading="lazy"
                 className="sketch-image-todoapp"
