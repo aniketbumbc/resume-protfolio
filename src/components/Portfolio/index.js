@@ -54,7 +54,12 @@ const Portfolio = () => {
               It's feedback. Empower you to build your UX portfolio and land
               your dream job.
             </p>
-            <a className="navigation-btn" href="teambition.html">
+            <a
+              className="navigation-btn"
+              href="https://calendly.com/aniket-umbc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Book With Aniket
             </a>
           </div>
