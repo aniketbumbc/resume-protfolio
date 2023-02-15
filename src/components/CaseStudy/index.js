@@ -2,7 +2,7 @@ import './index.scss';
 import { useLocation } from 'react-router-dom';
 import illustrationProblem from '../../assets/images/case study/illustration-1.png';
 import illustrationOne from '../../assets/images/case study/sitting study-3.png';
-import illustrationTwo from '../../assets/images/case study/sitting study-2.jpeg';
+import illustrationTwo from '../../assets/images/case study/sitting study-2.png';
 import illustrationThree from '../../assets/images/case study/sitting study.jpeg';
 
 const CaseStudy = () => {
@@ -159,26 +159,26 @@ const CaseStudy = () => {
               <div className="problem-para">
                 {' '}
                 <hr className="hr-line" />
-                Problem
+                COLORS & FONTS
               </div>
 
-              <div>
-                <p className="content-text">
-                  {' '}
-                  We noticed that college students find it difficult to practice
-                  self-care.
-                </p>
+              <div className="color-container">
+                <div className="box box-1"> </div>
+                <div className="box box-2"></div>
+              </div>
 
-                <p className="information">
-                  Inspired by our battles with mental illness, two friends and I
-                  decided to create a solution for encouraging self-care in
-                  everyday college life.
-                </p>
+              <div className="text-container">
+                <div className="color-name">#777FE8</div>
 
-                <p className="information">
-                  Witn this solution, we decided to compete in the University of
-                  Virginia's Social Entreprenuership Competition.
-                </p>
+                <div className="color-name">#62CFCD</div>
+              </div>
+              <div className="color-container">
+                <div className="box box-3"> </div>
+                <div className="box box-4"> </div>
+              </div>
+              <div className="text-container">
+                <div className="color-name"> #F7F8FA</div>
+                <div className="color-name">#AAB0FF</div>
               </div>
             </div>
 
@@ -198,16 +198,10 @@ const CaseStudy = () => {
                 src={illustrationThree}
                 alt="fireSpot"
                 loading="lazy"
-                className="sketch-image-todoapp"
+                className="sketch-image-todoapp study-three-image"
               />
             </div>
             <div>
-              <div className="problem-para">
-                {' '}
-                <hr className="hr-line" />
-                Problem
-              </div>
-
               <div>
                 <p className="content-text">
                   {' '}

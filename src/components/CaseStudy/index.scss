@@ -107,4 +107,46 @@
     width: 550px;
     font-size: 20px;
   }
+
+  .study-three-image {
+    margin-top: 20%;
+  }
+
+  .color-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .box {
+      width: 150px;
+      height: 105px;
+      margin: 30px;
+      box-shadow: 2px 5px #838383;
+    }
+
+    .box-1 {
+      background-color: #777fe8;
+    }
+
+    .box-2 {
+      background-color: #62cfcd;
+    }
+
+    .box-3 {
+      background-color: #f7f8fa;
+    }
+
+    .box-4 {
+      background-color: #aab0ff;
+    }
+  }
+  .text-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .color-name {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+  }
 }
