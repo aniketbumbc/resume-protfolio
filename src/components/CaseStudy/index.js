@@ -1,5 +1,6 @@
 import './index.scss';
 import { useLocation } from 'react-router-dom';
+import illustrationProblem from '../../assets/images/case study/illustration-1.png';
 
 const CaseStudy = () => {
   const { state } = useLocation();
@@ -77,41 +78,191 @@ const CaseStudy = () => {
         <>
           <div className="withoutposter-container">
             <div>
-              <h2> Here come problem statment</h2>
+              <div className="problem-para">
+                {' '}
+                <hr className="hr-line" />
+                Problem
+              </div>
+
+              <div>
+                <p className="content-text">
+                  {' '}
+                  We noticed that college students find it difficult to practice
+                  self-care.
+                </p>
+
+                <p className="information">
+                  Inspired by our battles with mental illness, two friends and I
+                  decided to create a solution for encouraging self-care in
+                  everyday college life.
+                </p>
+
+                <p className="information">
+                  Witn this solution, we decided to compete in the University of
+                  Virginia's Social Entreprenuership Competition.
+                </p>
+              </div>
             </div>
 
             <div>
-              <h2> Here come illustartion photo</h2>
+              <img
+                src={illustrationProblem}
+                alt="fireSpot"
+                loading="lazy"
+                className="sketch-image-todoapp"
+              />
             </div>
           </div>
 
           <div className="withoutposter-container">
             <div>
-              <h2> Here come problem statment</h2>
+              <div className="problem-para">
+                {' '}
+                <hr className="hr-line" />
+                Problem
+              </div>
+
+              <div>
+                <p className="content-text">
+                  {' '}
+                  We noticed that college students find it difficult to practice
+                  self-care.
+                </p>
+
+                <p className="information">
+                  Inspired by our battles with mental illness, two friends and I
+                  decided to create a solution for encouraging self-care in
+                  everyday college life.
+                </p>
+
+                <p className="information">
+                  Witn this solution, we decided to compete in the University of
+                  Virginia's Social Entreprenuership Competition.
+                </p>
+              </div>
             </div>
 
             <div>
-              <h2> Here come illustartion photo</h2>
+              <img
+                src={illustrationProblem}
+                alt="fireSpot"
+                loading="lazy"
+                className="sketch-image-todoapp"
+              />
             </div>
           </div>
 
           <div className="withoutposter-container">
             <div>
-              <h2> Here come problem statment</h2>
+              <div className="problem-para">
+                {' '}
+                <hr className="hr-line" />
+                Problem
+              </div>
+
+              <div>
+                <p className="content-text">
+                  {' '}
+                  We noticed that college students find it difficult to practice
+                  self-care.
+                </p>
+
+                <p className="information">
+                  Inspired by our battles with mental illness, two friends and I
+                  decided to create a solution for encouraging self-care in
+                  everyday college life.
+                </p>
+
+                <p className="information">
+                  Witn this solution, we decided to compete in the University of
+                  Virginia's Social Entreprenuership Competition.
+                </p>
+              </div>
             </div>
 
             <div>
-              <h2> Here come illustartion photo</h2>
+              <img
+                src={illustrationProblem}
+                alt="fireSpot"
+                loading="lazy"
+                className="sketch-image-todoapp"
+              />
             </div>
           </div>
 
           <div className="withoutposter-container">
             <div>
-              <h2> Here come problem statment</h2>
+              <div className="problem-para">
+                {' '}
+                <hr className="hr-line" />
+                Problem
+              </div>
+
+              <div>
+                <p className="content-text">
+                  {' '}
+                  We noticed that college students find it difficult to practice
+                  self-care.
+                </p>
+
+                <p className="information">
+                  Inspired by our battles with mental illness, two friends and I
+                  decided to create a solution for encouraging self-care in
+                  everyday college life.
+                </p>
+
+                <p className="information">
+                  Witn this solution, we decided to compete in the University of
+                  Virginia's Social Entreprenuership Competition.
+                </p>
+              </div>
             </div>
 
             <div>
-              <h2> Here come illustartion photo</h2>
+              <img
+                src={illustrationProblem}
+                alt="fireSpot"
+                loading="lazy"
+                className="sketch-image-todoapp"
+              />
+            </div>
+          </div>
+
+          <div className="withoutposter-container">
+            <div>
+              <div className="problem-para">
+                {' '}
+                <hr className="hr-line" />
+                Problem
+              </div>
+
+              <div>
+                <p className="content-text">
+                  {' '}
+                  We noticed that college students find it difficult to practice
+                  self-care.
+                </p>
+
+                <p className="information">
+                  Inspired by our battles with mental illness, two friends and I
+                  decided to create a solution for encouraging self-care in
+                  everyday college life.
+                </p>
+
+                <p className="information">
+                  Witn this solution, we decided to compete in the University of
+                  Virginia's Social Entreprenuership Competition.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <img
+                src={illustrationProblem}
+                alt="fireSpot"
+                loading="lazy"
+                className="sketch-image-todoapp"
+              />
             </div>
           </div>
         </>

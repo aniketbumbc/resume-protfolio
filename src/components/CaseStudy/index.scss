@@ -88,4 +88,23 @@
   margin-top: 2%;
   display: flex;
   justify-content: space-evenly;
+  .hr-line {
+    border: 1px solid $secondary-color;
+    display: inline-block;
+    width: 100px;
+    margin-right: 40px;
+  }
+  .problem-para {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .content-text {
+    width: 550px;
+    font-size: 40px;
+    color: $secondary-color;
+  }
+  .information {
+    width: 550px;
+    font-size: 24px;
+  }
 }
