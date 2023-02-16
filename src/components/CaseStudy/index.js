@@ -1,12 +1,28 @@
 import './index.scss';
-import { useLocation } from 'react-router-dom';
 import illustrationProblem from '../../assets/images/case study/illustration-1.jpg';
 import illustrationOne from '../../assets/images/case study/sitting study-3.png';
 import illustrationTwo from '../../assets/images/case study/sitting study-2.png';
 import illustrationThree from '../../assets/images/case study/sitting study.jpeg';
 import fontImage from '../../assets/images/case study/font-learntodo.png';
+import { useNavigate, useLocation } from 'react-router-dom';
+import leantodoapp from '../../assets/images/case study/learntodoapp-desktop.png';
+import breakfastDesktop from '../../assets/images/case study/Break-fast poster.png';
 
+import {
+  productDesignText,
+  ohvazBreakfast,
+  learnTodoText,
+  portfolioText,
+  breakFastProject,
+  breakFastDescriptionBody,
+  breakFastDescriptionIntro,
+  breakFastProjectData,
+  renoText,
+  learnTodoTitle,
+} from '../../constant';
+import Navigation from '../Navigation';
 const CaseStudy = () => {
+  const navigate = useNavigate();
   const { state } = useLocation();
   const {
     title,
@@ -51,22 +67,20 @@ const CaseStudy = () => {
           <div className="main-image">
             <img src={poster} alt="fireSpot" loading="lazy" className="" />
           </div>
-          <div className="navigation-container">
-            <div className="inner-navigation-container">
-              <div className="navigation-text">
-                <h2>
-                  PREVIOUS: <span> E-Breakfast</span>
-                </h2>{' '}
-                <h3 className="case-study">View Case Study</h3>
-              </div>
-              <div className="navigation-text">
-                <h2>
-                  NEXT:<span> E-Education</span>
-                </h2>
-                <h3 className="case-study">View Case Study</h3>
-              </div>
-            </div>
-          </div>
+          <Navigation
+            previousTitle={'Protfolio'}
+            previousNavigationText={'Back To Portfolio'}
+            nextTitle={'E-Learning Course'}
+            nextNavigationText={'View Case Study'}
+            backNavigation={'portfolio'}
+            frontNavigation={'casestudy'}
+            stateTitle={learnTodoTitle}
+            stateDescriptionIntro={breakFastDescriptionIntro}
+            stateDescriptionBody={breakFastDescriptionBody}
+            stateImageSrc={leantodoapp}
+            stateInfosection={breakFastProjectData}
+            statePoster={breakfastDesktop}
+          />
         </>
       ) : (
         <>
@@ -249,6 +263,43 @@ const CaseStudy = () => {
                 loading="lazy"
                 className=""
               />
+            </div>
+          </div>
+          <div className="navigation-container">
+            <div className="inner-navigation-container margin-top">
+              <div className="navigation-text">
+                <h2>
+                  PREVIOUS: <span> Protfolio </span>
+                </h2>{' '}
+                <h3
+                  className="case-study"
+                  onClick={() => navigate('/portfolio')}
+                >
+                  Back To Portfolio
+                </h3>
+              </div>
+              <div className="navigation-text">
+                <h2>
+                  NEXT:<span> E-Learning Course </span>
+                </h2>
+                <h3
+                  className="case-study"
+                  onClick={() =>
+                    navigate('/casestudy', {
+                      state: {
+                        title: learnTodoTitle,
+                        descriptionIntro: breakFastDescriptionIntro,
+                        descriptionBody: breakFastDescriptionBody,
+                        imageSrc: leantodoapp,
+                        infoSection: breakFastProjectData,
+                        poster: breakfastDesktop,
+                      },
+                    })
+                  }
+                >
+                  View Case Study
+                </h3>
+              </div>
             </div>
           </div>
         </>

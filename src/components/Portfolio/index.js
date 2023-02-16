@@ -28,7 +28,7 @@ import {
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   useEffect(() => {
     setTimeout(() => {

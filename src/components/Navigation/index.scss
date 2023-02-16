@@ -1,0 +1,21 @@
+.navigation-container {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .inner-navigation-container {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+    .navigation-text {
+      text-transform: uppercase;
+      h3 {
+        text-decoration: underline;
+      }
+    }
+  }
+  .margin-top {
+    margin-top: 4%;
+  }
+}
