@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import Loader from 'react-loaders';
 import designSketch from '../../assets/images/design-1.jpg';
 import ecommerce from '../../assets/images/ecommerce.jpg';
-import learnTodo from '../../assets/images/learnTodo.png';
+import learnTodo from '../../assets/images/learnTodo.jpg';
 import portfolio from '../../assets/images/porfolio-template.png';
 import AnimatedLetters from '../AnimatedLetters';
 import renovationProject from '../../assets/images/renovation.png';
@@ -82,6 +82,7 @@ const Portfolio = () => {
           </span>
         </div>
       </div>
+
       <Loader type="pacman" />
 
       <div className="portfolio-container">
@@ -140,11 +141,11 @@ const Portfolio = () => {
                 idx={15}
               />
             </span>
-            <p className="main-text-para">
-              What differentiates a good UX portfolio from a great portfolio?
-              It's feedback. Empower you to build your UX portfolio and land
-              your dream job.
-            </p>
+            <p className="image-description main-text-para">
+              I was the sole web designer for a leading conversational AI tool
+              training platform for bank accounts. The new design reduced task
+              times by 68% and improved users’ subjective satisfaction by 139%.
+            </p>{' '}
             <div
               className="navigation-btn case-study-btn"
               onClick={() =>
@@ -164,22 +165,13 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-
-        <div className="image-section">
+        <div className="text-section">
           <img
             src={learnTodo}
             alt="fireSpot"
+            className="ecommerce-image"
             loading="lazy"
-            className="sketch-image-todoapp"
           />
-
-          <span className="image-description todo-image-para">
-            "Thanks for the great session and detailed run-through Lola! <br />
-            It was much more thorough than a few other critiques <br />
-            I’ve received and the session really touched on <br />
-            how I should be communicating about the skills I can bring to the
-            table.
-          </span>
         </div>
       </div>
 
@@ -238,11 +230,11 @@ const Portfolio = () => {
                 idx={15}
               />
             </span>
-            <p className="main-text-para">
-              What differentiates a good UX portfolio from a great portfolio?
-              It's feedback. Empower you to build your UX portfolio and land
-              your dream job.
-            </p>
+            <p className="image-description main-text-para">
+              I was the sole web designer for a leading conversational AI tool
+              training platform for bank accounts. The new design reduced task
+              times by 68% and improved users’ subjective satisfaction by 139%.
+            </p>{' '}
             <div
               className="navigation-btn case-study-btn"
               onClick={() =>
@@ -262,22 +254,13 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-
-        <div className="image-section">
+        <div className="text-section">
           <img
             src={renovationProject}
             alt="fireSpot"
+            className="ecommerce-image"
             loading="lazy"
-            className="sketch-image-todoapp"
           />
-
-          <span className="image-description todo-image-para">
-            "Thanks for the great session and detailed run-through Lola! <br />
-            It was much more thorough than a few other critiques <br />
-            I’ve received and the session really touched on <br />
-            how I should be communicating about the skills I can bring to the
-            table.
-          </span>
         </div>
       </div>
     </>

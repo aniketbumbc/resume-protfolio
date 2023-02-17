@@ -1,7 +1,7 @@
 .portfolio-container {
   display: flex;
   //justify-content: space-between;
-
+  justify-content: center;
   .text-section {
     margin: 10%;
 
@@ -12,7 +12,7 @@
       margin-left: 5%;
     }
     .intro-section {
-      margin-left: 10%;
+      margin-left: 5%;
       border-left: 2px solid rgb(40, 117, 136);
       height: 150px;
     }
@@ -75,7 +75,7 @@
     font-size: 35px;
     font-weight: 500;
     font-family: sans-serif;
-    margin: 10px;
+    margin: 15px;
   }
 
   .navigation-btn {
