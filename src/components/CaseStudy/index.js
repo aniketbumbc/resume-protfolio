@@ -7,6 +7,7 @@ import fontImage from '../../assets/images/case study/font-learntodo.png';
 import { useNavigate, useLocation } from 'react-router-dom';
 import leantodoapp from '../../assets/images/case study/learntodoapp-desktop.png';
 import breakfastDesktop from '../../assets/images/case study/Break-fast poster.png';
+import breakfastPoster from '../../assets/images/case study/breakfast-desktop.png';
 
 import {
   productDesignText,
@@ -42,7 +43,6 @@ const CaseStudy = () => {
           <p>{descriptionIntro}</p>
           <p>{descriptionBody}</p>
         </div>
-
         <div className="image-containter">
           <img src={imageSrc} alt="fireSpot" loading="lazy" className="" />
         </div>
@@ -62,6 +62,7 @@ const CaseStudy = () => {
           })}
         </div>
       </div>
+
       {casestudy ? (
         <>
           <div className="main-image">
@@ -265,43 +266,86 @@ const CaseStudy = () => {
               />
             </div>
           </div>
-          <div className="navigation-container">
-            <div className="inner-navigation-container margin-top">
-              <div className="navigation-text">
-                <h2>
-                  PREVIOUS: <span> Protfolio </span>
-                </h2>{' '}
-                <h3
-                  className="case-study"
-                  onClick={() => navigate('/portfolio')}
-                >
-                  Back To Portfolio
-                </h3>
-              </div>
-              <div className="navigation-text">
-                <h2>
-                  NEXT:<span> E-Learning Course </span>
-                </h2>
-                <h3
-                  className="case-study"
-                  onClick={() =>
-                    navigate('/casestudy', {
-                      state: {
-                        title: learnTodoTitle,
-                        descriptionIntro: breakFastDescriptionIntro,
-                        descriptionBody: breakFastDescriptionBody,
-                        imageSrc: leantodoapp,
-                        infoSection: breakFastProjectData,
-                        poster: breakfastDesktop,
-                      },
-                    })
-                  }
-                >
-                  View Case Study
-                </h3>
+
+          {state.poster.search('renovation') ? (
+            <div className="navigation-container">
+              <div className="inner-navigation-container margin-top">
+                <div className="navigation-text">
+                  <h2>
+                    PREVIOUS: <span> E-Learning Course </span>
+                  </h2>{' '}
+                  <h3
+                    className="case-study"
+                    onClick={() =>
+                      navigate('/casestudy', {
+                        state: {
+                          title: breakFastProject,
+                          descriptionIntro: breakFastDescriptionIntro,
+                          descriptionBody: breakFastDescriptionBody,
+                          imageSrc: breakfastPoster,
+                          infoSection: breakFastProjectData,
+                          poster: breakfastDesktop,
+                          casestudy: true,
+                        },
+                      })
+                    }
+                  >
+                    View Case Study
+                  </h3>
+                </div>
+                <div className="navigation-text">
+                  <h2>
+                    NEXT:<span> Reno Inovation </span>
+                  </h2>
+                  <h3
+                    className="case-study"
+                    onClick={() => navigate(`/portfolio`)}
+                  >
+                    View Case Study
+                  </h3>
+                </div>
               </div>
             </div>
-          </div>
+          ) : (
+            <div className="navigation-container">
+              <div className="inner-navigation-container margin-top">
+                <div className="navigation-text">
+                  <h2>
+                    PREVIOUS: <span> Test OhvazE-Breakfast </span>
+                  </h2>{' '}
+                  <h3
+                    className="case-study"
+                    onClick={() =>
+                      navigate('/casestudy', {
+                        state: {
+                          title: breakFastProject,
+                          descriptionIntro: breakFastDescriptionIntro,
+                          descriptionBody: breakFastDescriptionBody,
+                          imageSrc: breakfastPoster,
+                          infoSection: breakFastProjectData,
+                          poster: breakfastDesktop,
+                          casestudy: true,
+                        },
+                      })
+                    }
+                  >
+                    View Case Study
+                  </h3>
+                </div>
+                <div className="navigation-text">
+                  <h2>
+                    NEXT:<span> Yes E-Learning Course </span>
+                  </h2>
+                  <h3
+                    className="case-study"
+                    onClick={() => navigate(`/portfolio`)}
+                  >
+                    View Case Study
+                  </h3>
+                </div>
+              </div>
+            </div>
+          )}
         </>
       )}
     </>

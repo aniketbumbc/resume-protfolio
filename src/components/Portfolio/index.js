@@ -9,6 +9,7 @@ import ecommerce from '../../assets/images/ecommerce.jpg';
 import learnTodo from '../../assets/images/learnTodo.jpg';
 import portfolio from '../../assets/images/porfolio-template.png';
 import AnimatedLetters from '../AnimatedLetters';
+import fontImage from '../../assets/images/case study/font-learntodo.png';
 import renovationProject from '../../assets/images/renovation.png';
 import breakfastDesktop from '../../assets/images/case study/Break-fast poster.png';
 import breakfastPoster from '../../assets/images/case study/breakfast-desktop.png';
@@ -24,6 +25,7 @@ import {
   breakFastProjectData,
   renoText,
   learnTodoTitle,
+  portfolioTitle,
 } from '../../constant';
 
 const Portfolio = () => {
@@ -204,12 +206,13 @@ const Portfolio = () => {
             onClick={() =>
               navigate('/casestudy', {
                 state: {
-                  title: breakFastProject,
+                  title: portfolioTitle,
                   descriptionIntro: breakFastDescriptionIntro,
                   descriptionBody: breakFastDescriptionBody,
-                  imageSrc: breakfastPoster,
+                  imageSrc: fontImage,
                   infoSection: breakFastProjectData,
-                  poster: breakfastDesktop,
+                  poster: renovationProject,
+                  casestudy: true,
                 },
               })
             }
