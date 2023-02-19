@@ -48,7 +48,34 @@ const About = () => {
             person, father of a beautiful daughter, a sports fanatic,
             photography enthusiast, and tech-obsessed!!!
           </p>
+          <div className="aboutme-container">
+            <div>
+              <h4>Software Design</h4>
+              <p>
+                I'm passionate about building and designing software products
+                across financial tech, productivity, CRM, and community. I
+                specialize in designing SaaS products from ideation to launch.
+              </p>
+            </div>
+            <div>
+              <h4>Software Design</h4>
+              <p>
+                I'm passionate about building and designing software products
+                across financial tech, productivity, CRM, and community. I
+                specialize in designing SaaS products from ideation to launch.
+              </p>
+            </div>
+            <div>
+              <h4>Software Design</h4>
+              <p>
+                I'm passionate about building and designing software products
+                across financial tech, productivity, CRM, and community. I
+                specialize in designing SaaS products from ideation to launch.
+              </p>
+            </div>
+          </div>
         </div>
+
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
