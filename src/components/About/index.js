@@ -70,7 +70,7 @@ const About = () => {
               <p>
                 I'm passionate about building and designing software products
                 across financial tech, productivity, CRM, and community. I
-                specialize in designing SaaS products from ideation to launch.
+                specialize in designing products from ideation to launch.
               </p>
             </div>
           </div>
