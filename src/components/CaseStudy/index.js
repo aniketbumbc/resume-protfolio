@@ -272,7 +272,7 @@ const CaseStudy = () => {
               <div className="inner-navigation-container margin-top">
                 <div className="navigation-text">
                   <h2>
-                    PREVIOUS: <span> E-Learning Course </span>
+                    PREVIOUS: <span> OhvazE-Breakfast </span>
                   </h2>{' '}
                   <h3
                     className="case-study"
