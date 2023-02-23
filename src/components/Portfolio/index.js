@@ -26,6 +26,7 @@ import {
   renoText,
   learnTodoTitle,
   portfolioTitle,
+  renoTitle,
 } from '../../constant';
 
 const Portfolio = () => {
@@ -122,7 +123,6 @@ const Portfolio = () => {
                   imageSrc: breakfastPoster,
                   infoSection: breakFastProjectData,
                   poster: breakfastDesktop,
-                  casestudy: true,
                 },
               })
             }
@@ -131,6 +131,8 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+
+      {/* learn App todo start */}
 
       <div className="portfolio-container">
         <div className="text-section todo-header">
@@ -177,6 +179,8 @@ const Portfolio = () => {
         </div>
       </div>
 
+      {/* portfolio start here */}
+
       <div className="portfolio-container">
         <div className="text-section">
           <img
@@ -222,6 +226,7 @@ const Portfolio = () => {
         </div>
       </div>
 
+      {/* reno section start here */}
       <div className="portfolio-container">
         <div className="text-section todo-header">
           <div className="intro-section">
@@ -243,7 +248,7 @@ const Portfolio = () => {
               onClick={() =>
                 navigate('/casestudy', {
                   state: {
-                    title: breakFastProject,
+                    title: renoTitle,
                     descriptionIntro: breakFastDescriptionIntro,
                     descriptionBody: breakFastDescriptionBody,
                     imageSrc: breakfastPoster,

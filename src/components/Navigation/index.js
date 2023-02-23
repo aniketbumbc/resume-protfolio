@@ -1,20 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import './index.scss';
-const Navigation = ({
-  previousTitle,
-  previousNavigationText,
-  nextTitle,
-  nextNavigationText,
-  backNavigation,
-  frontNavigation,
-  stateTitle,
-  stateDescriptionIntro,
-  stateDescriptionBody,
-  stateImageSrc,
-  stateInfosection,
-  statePoster,
-  stateCasestudy,
-}) => {
+const Navigation = ({ previousData, nextData }) => {
   const navigate = useNavigate();
   return (
     <>
@@ -22,35 +8,48 @@ const Navigation = ({
         <div className="inner-navigation-container">
           <div className="navigation-text">
             <h2>
-              PREVIOUS: <span> {previousTitle} </span>
+              PREVIOUS: <span> {previousData?.previousTitle} </span>
             </h2>{' '}
             <h3
               className="case-study"
-              onClick={() => navigate(`/${backNavigation}`)}
-            >
-              {previousNavigationText}
-            </h3>
-          </div>
-          <div className="navigation-text">
-            <h2>
-              NEXT:<span> {nextTitle} </span>
-            </h2>
-            <h3
-              className="case-study"
               onClick={() =>
-                navigate(`/${frontNavigation}`, {
+                navigate(`/${previousData?.backNavigation}`, {
                   state: {
-                    title: stateTitle,
-                    descriptionIntro: stateDescriptionIntro,
-                    descriptionBody: stateDescriptionBody,
-                    imageSrc: stateImageSrc,
-                    infoSection: stateInfosection,
-                    poster: statePoster,
+                    title: previousData?.previousTitle,
+                    descriptionIntro: previousData?.previousDescriptionIntro,
+                    descriptionBody: previousData?.previousDescriptionBody,
+                    imageSrc: previousData?.previousImageSrc,
+                    infoSection: previousData?.previousInfosection,
+                    poster: previousData?.previousPoster,
+                    casestudy: previousData?.casestudy,
                   },
                 })
               }
             >
-              {nextNavigationText}
+              {previousData?.previousNavigationText}
+            </h3>
+          </div>
+          <div className="navigation-text">
+            <h2>
+              NEXT:<span> {nextData.nextTitle} </span>
+            </h2>
+            <h3
+              className="case-study"
+              onClick={() =>
+                navigate(`/${nextData.frontNavigation}`, {
+                  state: {
+                    title: nextData.nextTitle,
+                    descriptionIntro: nextData.nextDescriptionIntro,
+                    descriptionBody: nextData.nextDescriptionBody,
+                    imageSrc: nextData.nextImageSrc,
+                    infoSection: nextData.nextInfosection,
+                    poster: nextData.nextPoster,
+                    casestudy: nextData.casestudy,
+                  },
+                })
+              }
+            >
+              {nextData.nextNavigationText}
             </h3>
           </div>
         </div>
