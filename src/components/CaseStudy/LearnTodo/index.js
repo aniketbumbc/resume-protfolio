@@ -17,6 +17,7 @@ import {
   breakFastProjectData,
   portfolioTitle,
   learnTodoTitle,
+  renoTitle,
 } from '../../../constant';
 
 import './index.scss';
@@ -215,7 +216,7 @@ const LearnTodo = () => {
           previousPoster: breakfastDesktop,
         }}
         nextData={{
-          nextTitle: 'Freelance Portfolio',
+          nextTitle: portfolioTitle,
           nextNavigationText: 'View Case Study',
           frontNavigation: 'casestudy',
           nextDescriptionIntro: breakFastDescriptionIntro,
@@ -223,7 +224,7 @@ const LearnTodo = () => {
           nextImageSrc: breakfastPoster,
           nextInfosection: breakFastProjectData,
           nextPoster: breakfastDesktop,
-          title: 'Portfolio',
+          title: renoTitle,
         }}
       />
       dc

@@ -21,7 +21,6 @@ const Navigation = ({ previousData, nextData }) => {
                     imageSrc: previousData?.previousImageSrc,
                     infoSection: previousData?.previousInfosection,
                     poster: previousData?.previousPoster,
-                    casestudy: previousData?.casestudy,
                   },
                 })
               }
@@ -44,7 +43,6 @@ const Navigation = ({ previousData, nextData }) => {
                     imageSrc: nextData.nextImageSrc,
                     infoSection: nextData.nextInfosection,
                     poster: nextData.nextPoster,
-                    casestudy: nextData.casestudy,
                   },
                 })
               }

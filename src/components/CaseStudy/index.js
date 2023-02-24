@@ -1,9 +1,6 @@
 import './index.scss';
 
 import { useNavigate, useLocation } from 'react-router-dom';
-import leantodoapp from '../../assets/images/case study/learntodoapp-desktop.png';
-import breakfastDesktop from '../../assets/images/case study/Break-fast poster.png';
-import breakfastPoster from '../../assets/images/case study/breakfast-desktop.png';
 
 import {
   productDesignText,
@@ -23,6 +20,7 @@ import Navigation from '../Navigation';
 import LearnTodo from './LearnTodo';
 import FreelancePortfolio from './FreelancePortfolio';
 import Reno from './Reno';
+import EBreakfast from './Breakfast';
 const CaseStudy = () => {
   const navigate = useNavigate();
   const { state } = useLocation();
@@ -62,33 +60,7 @@ const CaseStudy = () => {
         </div>
       </div>
 
-      {title === breakFastProject && (
-        <>
-          <div className="main-image">
-            <img src={poster} alt="fireSpot" loading="lazy" className="" />
-          </div>
-          <Navigation
-            previousData={{
-              previousTitle: 'Portfolio',
-              previousNavigationText: 'Back To Portfolio',
-              backNavigation: 'portfolio',
-            }}
-            nextData={{
-              nextTitle: 'Learn Todo App',
-              nextNavigationText: 'View Case Study',
-              frontNavigation: 'casestudy',
-              nextDescriptionIntro: breakFastDescriptionIntro,
-              nextDescriptionBody: breakFastDescriptionBody,
-              nextImageSrc: leantodoapp,
-              nextInfosection: breakFastProjectData,
-              nextPoster: breakfastDesktop,
-              title: 'Learn Todo App',
-              casestudy: false,
-            }}
-          />
-        </>
-      )}
-
+      {title === breakFastProject && <EBreakfast poster={poster} />}
       {title === learnTodoTitle && <LearnTodo />}
       {title === portfolioTitle && <FreelancePortfolio />}
       {title === renoTitle && <Reno />}
