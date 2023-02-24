@@ -90,9 +90,7 @@ const CaseStudy = () => {
       )}
 
       {title === learnTodoTitle && <LearnTodo />}
-
       {title === portfolioTitle && <FreelancePortfolio />}
-
       {title === renoTitle && <Reno />}
     </>
   );

@@ -15,7 +15,7 @@ import {
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
   breakFastProjectData,
-  renoText,
+  portfolioTitle,
   learnTodoTitle,
 } from '../../../constant';
 
@@ -213,19 +213,17 @@ const LearnTodo = () => {
           previousImageSrc: breakfastPoster,
           previousInfosection: breakFastProjectData,
           previousPoster: breakfastDesktop,
-          casestudy: true,
         }}
         nextData={{
-          nextTitle: 'Reno Inovation',
+          nextTitle: 'Freelance Portfolio',
           nextNavigationText: 'View Case Study',
           frontNavigation: 'casestudy',
           nextDescriptionIntro: breakFastDescriptionIntro,
           nextDescriptionBody: breakFastDescriptionBody,
-          nextImageSrc: breakfastDesktop,
+          nextImageSrc: breakfastPoster,
           nextInfosection: breakFastProjectData,
           nextPoster: breakfastDesktop,
-          title: breakFastProject,
-          casestudy: false,
+          title: 'Portfolio',
         }}
       />
       dc
@@ -234,10 +232,3 @@ const LearnTodo = () => {
 };
 
 export default LearnTodo;
-
-// descriptionIntro: breakFastDescriptionIntro,
-//           descriptionBody: breakFastDescriptionBody,
-//           imageSrc: breakfastPoster,
-//           infoSection: breakFastProjectData,
-//           poster: breakfastDesktop,
-//           casestudy: true,

@@ -216,7 +216,6 @@ const Portfolio = () => {
                   imageSrc: fontImage,
                   infoSection: breakFastProjectData,
                   poster: renovationProject,
-                  casestudy: true,
                 },
               })
             }
