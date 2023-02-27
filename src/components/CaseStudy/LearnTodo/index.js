@@ -47,7 +47,6 @@ const LearnTodo = () => {
               decided to create a solution for encouraging self-care in everyday
               college life.
             </p>
-
             <p className="information">
               Witn this solution, we decided to compete in the University of
               Virginia's Social Entreprenuership Competition.
