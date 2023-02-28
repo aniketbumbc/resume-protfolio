@@ -9,7 +9,7 @@ import ecommerce from '../../assets/images/ecommerce.jpg';
 import learnTodo from '../../assets/images/learnTodo.jpg';
 import portfolio from '../../assets/images/porfolio-template.png';
 import AnimatedLetters from '../AnimatedLetters';
-import fontImage from '../../assets/images/case study/font-learntodo.png';
+import showPortfolio from '../../assets/images/case study/portfoilo-disply.png';
 import renovationProject from '../../assets/images/renovation.png';
 import breakfastDesktop from '../../assets/images/case study/Break-fast poster.png';
 import breakfastPoster from '../../assets/images/case study/breakfast-desktop.png';
@@ -213,7 +213,7 @@ const Portfolio = () => {
                   title: portfolioTitle,
                   descriptionIntro: breakFastDescriptionIntro,
                   descriptionBody: breakFastDescriptionBody,
-                  imageSrc: fontImage,
+                  imageSrc: showPortfolio,
                   infoSection: breakFastProjectData,
                   poster: renovationProject,
                 },
