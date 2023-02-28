@@ -4,27 +4,20 @@ import illustrationTwo from '../../../assets/images/case study/sitting study-2.p
 import illustrationThree from '../../../assets/images/case study/sitting study.jpeg';
 import fontImage from '../../../assets/images/case study/font-learntodo.png';
 import breakfastPoster from '../../../assets/images/case study/breakfast-desktop.png';
-import { useNavigate, useLocation } from 'react-router-dom';
+import showPortfolio from '../../../assets/images/case study/portfoilo-disply.png';
+
 import breakfastDesktop from '../../../assets/images/case study/Break-fast poster.png';
 import {
-  productDesignText,
-  ohvazBreakfast,
-  learnTodoText,
-  portfolioText,
-  breakFastProject,
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
   breakFastProjectData,
   portfolioTitle,
-  learnTodoTitle,
   renoTitle,
 } from '../../../constant';
-
 import './index.scss';
 import Navigation from '../../Navigation';
 
 const LearnTodo = () => {
-  const navigate = useNavigate();
   return (
     <>
       <div className="withoutposter-container">
@@ -220,13 +213,12 @@ const LearnTodo = () => {
           frontNavigation: 'casestudy',
           nextDescriptionIntro: breakFastDescriptionIntro,
           nextDescriptionBody: breakFastDescriptionBody,
-          nextImageSrc: breakfastPoster,
+          nextImageSrc: showPortfolio,
           nextInfosection: breakFastProjectData,
           nextPoster: breakfastDesktop,
           title: renoTitle,
         }}
       />
-      dc
     </>
   );
 };
