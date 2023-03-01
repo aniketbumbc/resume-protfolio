@@ -1,5 +1,6 @@
 import './index.scss';
-import imageFont from '../../../assets/images/case study/font-learntodo.png';
+import imageFont from '../../../assets/images/case study/font-porfolio.png';
+import colorPalette from '../../../assets/images/case study/color-palette.png';
 import Navigation from '../../Navigation';
 import breakfastPoster from '../../../assets/images/case study/breakfast-desktop.png';
 import breakfastDesktop from '../../../assets/images/case study/Break-fast poster.png';
@@ -17,10 +18,10 @@ const FreelancePortfolio = () => {
       <div className="main-container">
         <div>
           <img
-            src={imageFont}
+            src={colorPalette}
             alt="fireSpot"
             loading="lazy"
-            className="study-margin-top-image"
+            className="study-margin-top-image margin-left"
           />
         </div>
         <div>
