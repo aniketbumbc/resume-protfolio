@@ -3,26 +3,16 @@ import './index.scss';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 import {
-  productDesignText,
-  ohvazBreakfast,
-  learnTodoText,
-  portfolioText,
   breakFastProject,
-  breakFastDescriptionBody,
-  breakFastDescriptionIntro,
-  breakFastProjectData,
   portfolioTitle,
-  renoText,
   learnTodoTitle,
   renoTitle,
 } from '../../constant';
-import Navigation from '../Navigation';
 import LearnTodo from './LearnTodo';
 import FreelancePortfolio from './FreelancePortfolio';
 import Reno from './Reno';
 import EBreakfast from './Breakfast';
 const CaseStudy = () => {
-  const navigate = useNavigate();
   const { state } = useLocation();
   const {
     title,

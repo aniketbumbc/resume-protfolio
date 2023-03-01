@@ -4,7 +4,12 @@ import './index.scss';
 import LogoBunny from '../../assets/images/logo.png';
 import LogoName from '../../assets/images/logo_name.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+  faDribbble,
+} from '@fortawesome/free-brands-svg-icons';
 import {
   faEnvelope,
   faHome,
@@ -65,6 +70,18 @@ const Sidebar = ({ colorStatus }) => {
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a target="_blank" rel="noreferrer" href="">
               <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            </a>
+          </li>
+          <li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a target="_blank" rel="noreferrer" href="">
+              <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
+            </a>
+          </li>
+          <li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a target="_blank" rel="noreferrer" href="">
+              <FontAwesomeIcon icon={faDribbble} color="#4d4d4e" />
             </a>
           </li>
         </ul>
