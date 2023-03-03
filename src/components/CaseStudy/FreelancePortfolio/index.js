@@ -4,6 +4,8 @@ import colorPalette from '../../../assets/images/case study/color-palette.png';
 import Navigation from '../../Navigation';
 import breakfastPoster from '../../../assets/images/case study/breakfast-desktop.png';
 import breakfastDesktop from '../../../assets/images/case study/Break-fast poster.png';
+import renoHeaderPoster from '../../../assets/images/case study/reno-heading-picture.png';
+
 import {
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
@@ -52,7 +54,7 @@ const FreelancePortfolio = () => {
           frontNavigation: 'casestudy',
           nextDescriptionIntro: breakFastDescriptionIntro,
           nextDescriptionBody: breakFastDescriptionBody,
-          nextImageSrc: breakfastPoster,
+          nextImageSrc: renoHeaderPoster,
           nextInfosection: breakFastProjectData,
           nextPoster: breakfastDesktop,
           title: renoTitle,

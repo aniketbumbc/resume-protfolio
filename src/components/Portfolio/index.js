@@ -13,6 +13,7 @@ import showPortfolio from '../../assets/images/case study/portfoilo-disply.png';
 import renovationProject from '../../assets/images/renovation.png';
 import breakfastDesktop from '../../assets/images/case study/Break-fast poster.png';
 import breakfastPoster from '../../assets/images/case study/breakfast-desktop.png';
+import renoHeaderPoster from '../../assets/images/case study/reno-heading-picture.png';
 import leantodoapp from '../../assets/images/case study/learntodoapp-desktop.png';
 import {
   productDesignText,
@@ -250,7 +251,7 @@ const Portfolio = () => {
                     title: renoTitle,
                     descriptionIntro: breakFastDescriptionIntro,
                     descriptionBody: breakFastDescriptionBody,
-                    imageSrc: breakfastPoster,
+                    imageSrc: renoHeaderPoster,
                     infoSection: breakFastProjectData,
                     poster: breakfastDesktop,
                   },
