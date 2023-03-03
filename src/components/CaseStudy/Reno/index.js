@@ -3,6 +3,16 @@ import carpainter from '../../../assets/images/case study/carpainter.png';
 import wireframe from '../../../assets/images/case study/Wire-frame.png';
 import sitesmaps from '../../../assets/images/case study/site-maps.png';
 import userflow from '../../../assets/images/case study/user-flow.png';
+import prototype from '../../../assets/images/case study/prototype.png';
+import showPortfolio from '../../../assets/images/case study/portfoilo-disply.png';
+import breakfastDesktop from '../../../assets/images/case study/Break-fast poster.png';
+import Navigation from '../../Navigation';
+import {
+  breakFastDescriptionBody,
+  breakFastDescriptionIntro,
+  breakFastProjectData,
+  portfolioTitle,
+} from '../../../constant';
 
 const Reno = () => {
   return (
@@ -113,9 +123,27 @@ const Reno = () => {
           the University of Virginia's Social Entreprenuership Competition.
         </p>
         <div className="process-image">
-          <img src={wireframe} alt="fireSpot" loading="lazy" />
+          <img src={prototype} alt="fireSpot" loading="lazy" />
         </div>
       </div>
+
+      <Navigation
+        previousData={{
+          previousTitle: portfolioTitle,
+          previousNavigationText: 'View Case Study',
+          backNavigation: 'casestudy',
+          previousDescriptionIntro: breakFastDescriptionIntro,
+          previousDescriptionBody: breakFastDescriptionBody,
+          previousImageSrc: showPortfolio,
+          previousInfosection: breakFastProjectData,
+          previousPoster: breakfastDesktop,
+        }}
+        nextData={{
+          nextTitle: 'Portfolio',
+          nextNavigationText: 'Back To Portfolio',
+          frontNavigation: 'portfolio',
+        }}
+      />
     </>
   );
 };

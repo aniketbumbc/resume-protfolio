@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .navigation-container {
   color: black;
   display: flex;
@@ -17,5 +19,8 @@
   }
   .margin-top {
     margin-top: 4%;
+  }
+  .navigation-title {
+    color: #fc3a79;
   }
 }

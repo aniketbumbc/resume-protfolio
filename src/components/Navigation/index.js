@@ -8,10 +8,14 @@ const Navigation = ({ previousData, nextData }) => {
         <div className="inner-navigation-container">
           <div className="navigation-text">
             <h2>
-              PREVIOUS: <span> {previousData?.previousTitle} </span>
+              PREVIOUS:{' '}
+              <span className="navigation-title">
+                {' '}
+                {previousData?.previousTitle}{' '}
+              </span>
             </h2>{' '}
             <h3
-              className="case-study"
+              className="case-study navigation-title"
               onClick={() =>
                 navigate(`/${previousData?.backNavigation}`, {
                   state: {
@@ -30,10 +34,11 @@ const Navigation = ({ previousData, nextData }) => {
           </div>
           <div className="navigation-text">
             <h2>
-              NEXT:<span> {nextData.nextTitle} </span>
+              NEXT:
+              <span className="navigation-title"> {nextData.nextTitle} </span>
             </h2>
             <h3
-              className="case-study"
+              className="case-study navigation-title"
               onClick={() =>
                 navigate(`/${nextData.frontNavigation}`, {
                   state: {
