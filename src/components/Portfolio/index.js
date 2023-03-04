@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import './index.scss';
 import { useNavigate } from 'react-router-dom';
 import Loader from 'react-loaders';
-import designSketch from '../../assets/images/design-1.jpg';
+import designSketch from '../../assets/images/designer.gif';
 import ecommerce from '../../assets/images/ecommerce.jpg';
 import learnTodo from '../../assets/images/learnTodo.jpg';
 import portfolio from '../../assets/images/porfolio-template.png';
@@ -67,23 +67,17 @@ const Portfolio = () => {
               Book With Aniket
             </a>
           </div>
-        </div>
-
-        <div className="image-section">
-          <img
-            src={designSketch}
-            alt="fireSpot"
-            className="sketch-image"
-            loading="lazy"
-          />
-
-          <span className="image-description">
+          <div className="image-description">
             "Thanks for the great session and detailed run-through Lola! <br />
             It was much more thorough than a few other critiques <br />
             I’ve received and the session really touched on <br />
             how I should be communicating about the skills I can bring to the
             table.
-          </span>
+          </div>
+        </div>
+
+        <div>
+          <img src={designSketch} alt="fireSpot" loading="lazy" />
         </div>
       </div>
 

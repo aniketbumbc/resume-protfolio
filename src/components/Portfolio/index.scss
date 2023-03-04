@@ -2,8 +2,12 @@
   display: flex;
   //justify-content: space-between;
   justify-content: center;
+
   .text-section {
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    margin-bottom: 10%;
 
     .main-text {
       font-size: 35px;
@@ -20,41 +24,9 @@
       margin-left: 5%;
       margin-bottom: 25px;
     }
-  }
-  .image-section {
-    .sketch-image {
-      width: 400px;
-      height: 200px;
-      object-fit: cover;
-      box-shadow: 5px 8px #809eac;
-    }
-    // img {
-    //   /* adjust the below to control the 3D effect */
-    //   --x: 10px;
-    //   --y: 20px;
-    //   transform: perspective(1000px) rotateX(var(--_a, 40deg));
-    //   /* */
-    //   clip-path: polygon(
-    //     var(--y) var(--y),
-    //     calc(100% - var(--y)) var(--y),
-    //     calc(100% - var(--y)) calc(100% - var(--y)),
-    //     calc(100% - var(--y) - var(--x)) var(--_c, 100%),
-    //     calc(var(--x) + var(--y)) var(--_c, 100%),
-    //     var(--y) calc(100% - var(--y))
-    //   );
-    //   outline: var(--y) solid rgba(0, 0, 0, 0.4);
-    //   outline-offset: calc(-1 * var(--y));
-    //   padding: var(--y) var(--y) 0 var(--y);
-    //   transition: 1s;
-    //   &:hover {
-    //     --_a: 0deg;
-    //     --_c: calc(100% - var(--y));
-    //   }
-    // }
-
     .image-description {
-      display: block;
-      padding: 10px;
+      margin-left: 10%;
+      margin-top: 10%;
     }
   }
 
@@ -66,7 +38,7 @@
   }
 
   .image-section-ecommerce {
-    margin-top: 25%;
+    margin-top: 15%;
     border-left: 2px solid rgb(40, 117, 136);
     height: 150px;
     padding: 15px;
@@ -109,12 +81,12 @@
   }
 
   .todo-header {
-    margin-top: 20%;
+    margin-top: 15%;
   }
   .todo-image-para {
     text-align: center;
   }
   .portfolio-header {
-    margin-top: 40%;
+    margin-top: 20%;
   }
 }
