@@ -4,6 +4,8 @@ import { jobArray, nameArray } from '../../constant';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import { Slide } from 'react-awesome-reveal';
+// import userImage from '../../assets/images/Programming-pana.png';
+import userImage from '../../assets/images/developer-program.gif';
 
 import './index.scss';
 
@@ -55,7 +57,7 @@ const Home = () => {
         <Loader type="pacman" />
         <div className="image-section">
           <div className="image-box">
-            {/* <img className="image-blob" src={userImage} alt="aniket-b" /> */}
+            <img className="image-blob" src={userImage} alt="aniket-b" />
           </div>
         </div>
       </div>
