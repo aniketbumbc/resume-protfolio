@@ -1,2 +1,41 @@
+@import '../../App.scss';
+.container {
+  display: flex;
+  justify-content: space-evenly;
 
-
+  .text-zone {
+    margin-top: 7%;
+    margin-left: 2%;
+    h1 {
+      font-size: 53px;
+      font-family: 'Coolvetica';
+      color: $secondary-color;
+      font-weight: 400;
+    }
+    .contact-section {
+      font-size: 30px;
+      font-family: 'Coolvetica';
+    }
+    .info-section {
+      font-size: 20px;
+      font-family: 'Coolvetica';
+    }
+  }
+  .primary-color {
+    margin-top: 7%;
+    color: $secondary-color;
+  }
+  .image-top {
+    margin-top: 7%;
+  }
+  .site-info {
+    margin-top: 5%;
+    font-size: 24px;
+    color: $secondary-color;
+    font-family: 'Coolvetica';
+  }
+  .copyright-info {
+    font-size: 20px;
+    font-family: 'Coolvetica';
+  }
+}

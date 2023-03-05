@@ -22,7 +22,26 @@ export const jobArray = [
 
 export const aboutMe = ['A', 'b', 'o', 'u', 't', ' ', 'm', 'e'];
 
-export const contactMe = ['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e'];
+export const contactMe = [
+  'C',
+  'o',
+  'n',
+  't',
+  'a',
+  'c',
+  't',
+  ' ',
+  'I',
+  'n',
+  'f',
+  'o',
+  'm',
+  'a',
+  't',
+  'i',
+  'o',
+  'n',
+];
 
 export const skills = [
   'S',
