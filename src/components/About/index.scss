@@ -1,8 +1,31 @@
+@import '../../App.scss';
+
+.about-container {
+  display: flex;
+  justify-content: space-evenly;
+  .text-zone {
+    margin-top: 7%;
+    margin-left: 20%;
+    h1 {
+      font-size: 53px;
+      font-family: 'Coolvetica';
+      color: $secondary-color;
+      font-weight: 400;
+    }
+  }
+
+  .about-info {
+    width: 50%;
+    font-family: 'Coolvetica';
+    font-size: 24px;
+  }
+}
+
 .stage-cube-cont {
   width: 50%;
   height: 100%;
   top: 0;
-  padding-top: 18%;
+  padding-top: 20%;
   margin-left: 0;
   position: absolute;
   right: 0;
@@ -77,4 +100,18 @@
 .aboutme-container {
   display: flex;
   justify-content: space-between;
+  margin-left: 12%;
+  margin-top: 5%;
+  span {
+    font-family: 'Coolvetica';
+    font-size: 30px;
+    color: $secondary-color;
+    text-align: center;
+  }
+  .details-info {
+    margin-top: 10px;
+    width: 75%;
+    font-family: 'Coolvetica';
+    font-size: 20px;
+  }
 }
