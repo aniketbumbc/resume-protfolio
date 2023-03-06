@@ -1,3 +1,5 @@
+@import '../../App.scss';
+
 .portfolio-container {
   display: flex;
   //justify-content: space-between;
@@ -14,18 +16,34 @@
       font-weight: 500;
       font-family: sans-serif;
       margin-left: 5%;
+      color: $secondary-color;
     }
     .intro-section {
       margin-left: 5%;
       border-left: 2px solid rgb(40, 117, 136);
-      height: 150px;
     }
     .main-text-para {
       margin-left: 5%;
       margin-bottom: 25px;
+      font-size: 20px;
+      font-family: 'Coolvetica';
     }
     .image-description {
       margin-left: 10%;
+      margin-top: 20%;
+      font-size: 20px;
+      font-family: 'Coolvetica';
+    }
+    .left-para-description {
+      font-size: 20px;
+      font-family: 'Coolvetica';
+      margin-top: 5%;
+      margin-left: 5%;
+    }
+    .skill-info {
+      margin-left: 9%;
+      font-size: 20px;
+      font-family: 'Coolvetica';
       margin-top: 10%;
     }
   }
@@ -38,9 +56,9 @@
   }
 
   .image-section-ecommerce {
-    margin-top: 15%;
+    margin-top: 10%;
     border-left: 2px solid rgb(40, 117, 136);
-    height: 150px;
+    height: 10%;
     padding: 15px;
   }
   .ecommerce-main-text {
@@ -70,7 +88,10 @@
 
   .ecommerce-text-para {
     margin: 2%;
-    width: 50%;
+    width: 75%;
+    font-size: 20px;
+    font-family: 'Coolvetica';
+    color: $secondary-color;
   }
 
   .sketch-image-todoapp {
@@ -81,7 +102,7 @@
   }
 
   .todo-header {
-    margin-top: 15%;
+    margin-top: 12%;
   }
   .todo-image-para {
     text-align: center;

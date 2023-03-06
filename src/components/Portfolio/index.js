@@ -67,12 +67,11 @@ const Portfolio = () => {
               Let's Catch Up
             </a>
           </div>
-          <div className="image-description">
-            "Thanks for the great session and detailed run-through Lola! <br />
-            It was much more thorough than a few other critiques <br />
-            I’ve received and the session really touched on <br />
-            how I should be communicating about the skills I can bring to the
-            table.
+          <div className="skill-info">
+            Thanks for the great session and detailed run-through Lola! It was
+            much more thorough than a few other critiques I’ve received and the
+            session really touched on how I should be communicating about the
+            skills I can bring to the table.
           </div>
         </div>
 
@@ -140,7 +139,7 @@ const Portfolio = () => {
                 idx={15}
               />
             </span>
-            <p className="image-description main-text-para">
+            <p className="left-para-description">
               I was the sole web designer for a leading conversational AI tool
               training platform for bank accounts. The new design reduced task
               times by 68% and improved users’ subjective satisfaction by 139%.
@@ -232,7 +231,7 @@ const Portfolio = () => {
                 idx={15}
               />
             </span>
-            <p className="image-description main-text-para">
+            <p className="left-para-description">
               I was the sole web designer for a leading conversational AI tool
               training platform for bank accounts. The new design reduced task
               times by 68% and improved users’ subjective satisfaction by 139%.
