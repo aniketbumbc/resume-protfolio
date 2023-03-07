@@ -15,7 +15,7 @@ const Navigation = ({ previousData, nextData }) => {
               </span>
             </h2>{' '}
             <h3
-              className="case-study navigation-title"
+              className="case-study"
               onClick={() =>
                 navigate(`/${previousData?.backNavigation}`, {
                   state: {
@@ -38,7 +38,7 @@ const Navigation = ({ previousData, nextData }) => {
               <span className="navigation-title"> {nextData.nextTitle} </span>
             </h2>
             <h3
-              className="case-study navigation-title"
+              className="case-study"
               onClick={() =>
                 navigate(`/${nextData.frontNavigation}`, {
                   state: {

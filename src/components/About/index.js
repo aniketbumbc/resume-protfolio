@@ -77,8 +77,9 @@ const About = () => {
               Looking forward to an opportunity to work with cutting-edge
               technologies on the challenge and diverse projects. I'm quietly
               <span className="secondary-color">
-                confident, naturally curious,good learner,{' '}
-              </span>
+                {' '}
+                confident, naturally curious, good learner,{' '}
+              </span>{' '}
               and perpetually working on improving my chops one design problem
               at a time.
             </p>
@@ -112,54 +113,59 @@ const About = () => {
 
       <div className="aboutme-container">
         <div>
-          <span>Software Design</span>
+          <span className="title-skill">Software Development</span>
           <p className="details-info">
-            I'm passionate about building and designing software products across
-            financial tech, productivity, CRM, and community. I specialize in
-            designing SaaS products from ideation to launch.
+            I'm passionate about building and develop software products across
+            productivity, CRM, and community. I specialize in development
+            products from ideation to launch.
           </p>
         </div>
+
         <div>
-          <span>Software Design</span>
+          <span className="title-skill">Leadership</span>
           <p className="details-info">
-            I'm passionate about building and designing software products across
-            financial tech, productivity, CRM, and community. I specialize in
-            designing SaaS products from ideation to launch.
+            I firmly believe that great leaders always work for the people.
+            Leadership is all about showing up for people and inspiring growth,
+            regardless of what position you’re in or how much power you hold.
           </p>
         </div>
+
         <div>
-          <span>Software Design</span>
+          <span className="title-skill">Product Management</span>
           <p className="details-info">
-            I'm passionate about building and designing software products across
-            financial tech, productivity, CRM, and community. I specialize in
-            designing products from ideation to launch.
+            I'm a certified Product Management Foundations from{' '}
+            <a href="https://www.reforge.com/programs/">REFORGE</a>. Looking
+            forward to different courses from same university. Along with hefty
+            work experience in agile processes and methodologies to my design
+            process.
           </p>
         </div>
       </div>
 
       <div className="aboutme-container">
         <div>
-          <span>Software Design</span>
+          <span className="title-skill">UI & UX Design</span>
           <p className="details-info">
-            I'm passionate about building and designing software products across
-            financial tech, productivity, CRM, and community. I specialize in
-            designing SaaS products from ideation to launch.
+            I'm a skilled visual designer with an eye for graphics, typography,{' '}
+            layout, and color. I love designing functional software & mobile
+            products with <br />
+            infusing modern aesthetics.
           </p>
         </div>
         <div>
-          <span>Software Design</span>
+          <span className="title-skill"> User Research</span>
           <p className="details-info">
-            I'm passionate about building and designing software products across
-            financial tech, productivity, CRM, and community. I specialize in
-            designing SaaS products from ideation to launch.
+            I believe this is most important step of the design process. I love
+            speaking to users and understanding their process & problems first,
+            before even considering design.
           </p>
         </div>
         <div>
-          <span>Software Design</span>
+          <span className="title-skill">Prototyping - User flow</span>
           <p className="details-info">
-            I'm passionate about building and designing software products across
-            financial tech, productivity, CRM, and community. I specialize in
-            designing products from ideation to launch.
+            I'm skilled in prototyping products with users and stakeholders
+            across the entire design lifecycle. I love using Figma, Sketch, &
+            Invision to wireframe and design process.
           </p>
         </div>
       </div>

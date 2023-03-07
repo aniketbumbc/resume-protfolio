@@ -25,25 +25,25 @@
     .main-text-para {
       margin-left: 5%;
       margin-bottom: 25px;
+      font-family: 'Merriweather';
       font-size: 20px;
-      font-family: 'Coolvetica';
     }
-    .image-description {
-      margin-left: 10%;
-      margin-top: 20%;
-      font-size: 20px;
-      font-family: 'Coolvetica';
-    }
+    // .image-description {
+    //   margin-left: 10%;
+    //   margin-top: 20%;
+    //   font-family: 'Merriweather';
+    //   font-size: 20px;
+    // }
     .left-para-description {
+      font-family: 'Merriweather';
       font-size: 20px;
-      font-family: 'Coolvetica';
       margin-top: 5%;
       margin-left: 5%;
     }
     .skill-info {
       margin-left: 9%;
       font-size: 20px;
-      font-family: 'Coolvetica';
+      font-family: 'Merriweather';
       margin-top: 10%;
     }
   }
@@ -69,16 +69,17 @@
   }
 
   .navigation-btn {
-    font-family: 'Quattrocento';
-    background-color: rgba(245, 245, 245, 0);
-    color: rgb(40, 117, 136);
-    border: 1px solid #9a1750;
+    font-family: 'Coolvetica';
+    letter-spacing: 2px;
+    color: #9a1750;
+    border: 1px solid rgb(40, 117, 136);
     margin-left: 30px;
     padding: 10px;
     font-size: 15px;
     text-decoration: none;
+    text-transform: uppercase;
     font-weight: bold;
-    width: 85px;
+    width: 105px;
     text-align: center;
   }
   .case-study-btn {
@@ -90,7 +91,7 @@
     margin: 2%;
     width: 75%;
     font-size: 20px;
-    font-family: 'Coolvetica';
+    font-family: 'Merriweather';
     color: $secondary-color;
   }
 

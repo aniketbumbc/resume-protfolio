@@ -21,6 +21,13 @@
     margin-top: 4%;
   }
   .navigation-title {
-    color: #fc3a79;
+    font-family: 'Coolvetica';
+    color: $primary-color;
+    letter-spacing: 2px;
+  }
+  .case-study {
+    font-family: 'Coolvetica';
+    color: $secondary-color;
+    letter-spacing: 2px;
   }
 }

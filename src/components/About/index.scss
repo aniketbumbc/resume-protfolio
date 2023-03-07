@@ -8,7 +8,7 @@
     margin-left: 20%;
     h1 {
       font-size: 53px;
-      font-family: 'Coolvetica';
+      font-family: 'Merriweather';
       color: $secondary-color;
       font-weight: 400;
     }
@@ -108,7 +108,7 @@
   margin-left: 12%;
   margin-top: 5%;
   span {
-    font-family: 'Coolvetica';
+    font-family: 'Merriweather';
     font-size: 30px;
     color: $secondary-color;
     text-align: center;
@@ -116,7 +116,11 @@
   .details-info {
     margin-top: 10px;
     width: 75%;
-    font-family: 'Coolvetica';
+    font-family: 'Merriweather';
     font-size: 20px;
+    font-style: italic;
+  }
+  .title-skill {
+    font-weight: bold;
   }
 }

@@ -13,12 +13,12 @@
       font-weight: 400;
     }
     .contact-section {
+      font-family: 'Merriweather';
       font-size: 30px;
-      font-family: 'Coolvetica';
     }
     .info-section {
       font-size: 20px;
-      font-family: 'Coolvetica';
+      font-family: 'Merriweather';
     }
   }
   .primary-color {
@@ -32,10 +32,10 @@
     margin-top: 5%;
     font-size: 24px;
     color: $secondary-color;
-    font-family: 'Coolvetica';
+    font-family: 'Merriweather';
   }
   .copyright-info {
     font-size: 20px;
-    font-family: 'Coolvetica';
+    font-family: 'Merriweather';
   }
 }
