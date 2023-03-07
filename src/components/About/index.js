@@ -58,7 +58,7 @@ const About = () => {
             <p className="about-info">
               Graduated with{' '}
               <span className="secondary-color">
-                Masters in Science of Information Systems in the USA 🇺🇸.
+                Masters of Science in Information Systems from USA 🇺🇸.
               </span>{' '}
               Currently working in the IT industry for more than 5 years of
               experiences in the
