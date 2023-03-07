@@ -1,3 +1,4 @@
+@import '../../App.scss';
 .home-container {
   min-height: 100vh;
   display: flex;
@@ -14,7 +15,7 @@
   }
 
   h1 {
-    color: rgb(40, 117, 136);
+    color: $secondary-color;
     font-size: 56px;
     line-height: 53px;
     margin: 0;
@@ -24,7 +25,7 @@
     // &:before {
     //   content: '<h1>';
     //   font-family: 'La Belle Aurore', cursive;
-    //   color: #9a1750;
+    //   color: $primary-color;
     //   font-size: 18px;
     //   position: absolute;
     //   margin-top: -40px;
@@ -35,7 +36,7 @@
     // &:after {
     //   content: '<h1/>';
     //   font-family: 'La Belle Aurore', cursive;
-    //   color: #9a1750;
+    //   color: $primary-color;
     //   font-size: 18px;
     //   position: absolute;
     //   margin-top: 18px;
@@ -55,33 +56,35 @@
   }
 
   h2 {
-    color: #272525;
     margin-top: 20px;
     font-weight: 400;
-    font-size: 15px;
-    font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
   }
 
   .flat-button {
-    color: #9a1750;
-    font-size: 13px;
+    color: $primary-color;
+    font-size: 20px;
     font-weight: 400;
-    letter-spacing: 4px;
-    font-family: sans-serif;
+    font-family: 'Coolvetica';
     text-decoration: none;
+    letter-spacing: 3px;
     padding: 10px 18px;
-    border: 1px solid #9a1750;
+    border: 1px solid $primary-color;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
-      background: #9a1750;
-      color: #333;
+      background: $secondary-color;
+      color: white;
     }
+  }
+  .title-description {
+    color: $primary-color;
+    font-family: 'Coolvetica';
+    font-size: 18px;
   }
 }
 

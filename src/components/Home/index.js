@@ -4,7 +4,6 @@ import { jobArray, nameArray } from '../../constant';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import { Slide } from 'react-awesome-reveal';
-// import userImage from '../../assets/images/Programming-pana.png';
 import userImage from '../../assets/images/developer-program.gif';
 
 import './index.scss';
@@ -42,7 +41,9 @@ const Home = () => {
                 idx={25}
               />
             </h1>
-            <h2>Fullstack Developer / Javascript Developer</h2>
+            <h2 className="title-description">
+              Javascript Fullstack Developer / UX-UI Designer
+            </h2>
             <Slide>
               <a
                 className="flat-button"

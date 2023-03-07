@@ -16,8 +16,13 @@
 
   .about-info {
     width: 50%;
-    font-family: 'Coolvetica';
-    font-size: 24px;
+    font-family: 'Merriweather';
+    font-size: 22px;
+  }
+  .secondary-color {
+    margin: 0px;
+    color: $secondary-color;
+    font-weight: bold;
   }
 }
 

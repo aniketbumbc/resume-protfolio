@@ -3,6 +3,8 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import { aboutMe } from '../../constant';
+import { Reveal, Fade, Zoom } from 'react-awesome-reveal';
+
 import {
   faAngular,
   faCss3,
@@ -34,20 +36,53 @@ const About = () => {
               letterClass={letterClass}
             />
           </h1>
-          <p className="about-info">
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the cutting
-            edage technologies on challenging and diverse projects.
-          </p>
-          <p className="about-info">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
-          </p>
-          <p className="about-info">
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
-          </p>
+          <Reveal>
+            <p className="about-info">
+              I’m a{' '}
+              <span className="secondary-color">
+                marathon runner🏃‍♂️, learner👨‍💻, swimmer🏊‍♂️, believer in
+                meditation🧘🏻,{' '}
+              </span>{' '}
+              and amateur musician who{' '}
+              <span className="secondary-color">plays guitar🎸</span>. Fond of
+              traveling and observing different cultures and understanding
+              humans. Spreading more{' '}
+              <span className="secondary-color">
+                {' '}
+                Empathy and Solving humans problem{' '}
+              </span>{' '}
+              with the assessment of technology.
+            </p>
+          </Reveal>
+          <Fade>
+            <p className="about-info">
+              Graduated with{' '}
+              <span className="secondary-color">
+                Masters in Science of Information Systems in the USA 🇺🇸.
+              </span>{' '}
+              Currently working in the IT industry for more than 5 years of
+              experiences in the
+              <span className="secondary-color">
+                {' '}
+                Front-End (UI/UX) / JavaScript Developer.{' '}
+              </span>{' '}
+              In addition, I also have a good understanding of{' '}
+              <span className="secondary-color">
+                UX-UI 🎨 designing skills.
+              </span>
+            </p>
+          </Fade>
+          <Zoom>
+            <p className="about-info">
+              Looking forward to an opportunity to work with cutting-edge
+              technologies on the challenge and diverse projects. I'm quietly
+              <span className="secondary-color">
+                confident, naturally curious,good learner,{' '}
+              </span>
+              and perpetually working on improving my chops one design problem
+              at a time.
+            </p>
+          </Zoom>
 
           <div className="stage-cube-cont">
             <div className="cubespinner">
