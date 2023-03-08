@@ -223,7 +223,6 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="casestudy" element={<CaseStudy />} />
-          {/* <Route path="work" element={<Work />} /> */}
         </Route>
       </Routes>
     </>
