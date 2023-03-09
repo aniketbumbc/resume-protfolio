@@ -36,9 +36,7 @@ const LearnTodo = () => {
             </p>
 
             <p className="information">
-              Inspired by our battles with mental illness, two friends and I
-              decided to create a solution for encouraging self-care in everyday
-              college life.
+              Inspired by our battles with mental illness.
             </p>
             <p className="information">
               Witn this solution, we decided to compete in the University of
