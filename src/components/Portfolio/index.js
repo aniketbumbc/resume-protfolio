@@ -54,9 +54,9 @@ const Portfolio = () => {
               />
             </span>
             <p className="main-text-para">
-              What differentiates a good UX portfolio from a great portfolio?
-              It's feedback. Empower you to build your UX portfolio and land
-              your dream job.
+              What differentiates a good to a great product ( web application )?
+              It's feedback. Empower your businees by building your UX/UI design
+              for product and catch users attention.
             </p>
             <a
               className="navigation-btn"
@@ -68,10 +68,12 @@ const Portfolio = () => {
             </a>
           </div>
           <div className="skill-info">
-            Thanks for the great session and detailed run-through Lola! It was
-            much more thorough than a few other critiques I’ve received and the
-            session really touched on how I should be communicating about the
-            skills I can bring to the table.
+            In the upcoming session we will go through overall vision and goals
+            of the product, including the target audience, market trends, and
+            key features that the product should have. <br />
+            Along with topic in depth analysis of research,user testing,
+            prototyping, iteration along with color schemes, typography, and
+            layout, to ensure that the product looks and feels good to use.
           </div>
         </div>
 
