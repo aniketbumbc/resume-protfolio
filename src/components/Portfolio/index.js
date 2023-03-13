@@ -104,9 +104,10 @@ const Portfolio = () => {
             />
           </span>
           <p className="ecommerce-text-para">
-            I was the sole web designer for a leading conversational AI training
-            platform for bank accounts. The new design reduced task times by 68%
-            and improved users’ subjective satisfaction by 139%.
+            I am sole the sole web designer for a breakfast online eatery.
+            Online platform that provide breakfast, healty mixed paste and
+            fruits jam. The design help owers to redued task time by 68% and
+            improved customer engagement with store more than 90%.
           </p>{' '}
           <div
             className="navigation-btn case-study-btn"
@@ -142,9 +143,9 @@ const Portfolio = () => {
               />
             </span>
             <p className="left-para-description">
-              I was the sole web designer for a leading conversational AI tool
-              training platform for bank accounts. The new design reduced task
-              times by 68% and improved users’ subjective satisfaction by 139%.
+              I am part of the designing team with the product owner. I assist
+              product owners to fulfill the requirement to build interactive
+              prototypes, mobile screens, logs and other UX operations.
             </p>{' '}
             <div
               className="navigation-btn case-study-btn"
@@ -197,9 +198,9 @@ const Portfolio = () => {
             />
           </span>
           <p className="ecommerce-text-para">
-            I was the sole web designer for a leading conversational AI tool
-            training platform for bank accounts. The new design reduced task
-            times by 68% and improved users subjective satisfaction by 139%.
+            I helped John to design and build his Freelance portfolio for his
+            business. That really assists him to capture more clients and show
+            his skill sets.
           </p>{' '}
           <div
             className="navigation-btn case-study-btn"
