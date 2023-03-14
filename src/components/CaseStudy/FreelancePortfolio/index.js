@@ -10,7 +10,10 @@ import {
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
   breakFastProjectData,
+  freelanceProjectData,
   learnTodoTitle,
+  renoBody,
+  renoIntro,
   renoTitle,
 } from '../../../constant';
 
@@ -52,11 +55,10 @@ const FreelancePortfolio = () => {
           nextTitle: renoTitle,
           nextNavigationText: 'View Case Study',
           frontNavigation: 'casestudy',
-          nextDescriptionIntro: breakFastDescriptionIntro,
-          nextDescriptionBody: breakFastDescriptionBody,
+          nextDescriptionIntro: renoIntro,
+          nextDescriptionBody: renoBody,
           nextImageSrc: renoHeaderPoster,
-          nextInfosection: breakFastProjectData,
-          nextPoster: breakfastDesktop,
+          nextInfosection: freelanceProjectData,
           title: renoTitle,
         }}
       />

@@ -209,3 +209,7 @@ export const freelanceProjectData = [
 ];
 
 export const renoText = ['R', 'e', 'n', 'o'];
+export const renoIntro =
+  'The business owner has a simple requirement to make their business online, which makes business more flexible, loweheads their cost, reaches a larger audience and increases profitability.';
+export const renoBody =
+  'My approach was to make a design in iteration base which covers wireframe, user flow, site maps,  user flow and prototype.  The above steps are to know a clear understanding of actual web sites design.';

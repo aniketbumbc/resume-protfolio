@@ -36,10 +36,10 @@ const CaseStudy = () => {
       </div>
       <div className="rectangle">
         <div className="cotainer-data">
-          {infoSection.map((value) => {
+          {infoSection.map((value, index) => {
             return (
               <>
-                <div>
+                <div key={index + value.title}>
                   <p className="title"> {value.title}</p>
                   <p className="information">{value.information}</p>
                   <p className="information">{value.shortInfo}</p>

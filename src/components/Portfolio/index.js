@@ -31,6 +31,8 @@ import {
   freelanceProjectData,
   freelanceProtfolioIntro,
   freelanceProtfolioBody,
+  renoIntro,
+  renoBody,
 } from '../../constant';
 
 const Portfolio = () => {
@@ -249,11 +251,10 @@ const Portfolio = () => {
                 navigate('/casestudy', {
                   state: {
                     title: renoTitle,
-                    descriptionIntro: breakFastDescriptionIntro,
-                    descriptionBody: breakFastDescriptionBody,
+                    descriptionIntro: renoIntro,
+                    descriptionBody: renoBody,
                     imageSrc: renoHeaderPoster,
-                    infoSection: breakFastProjectData,
-                    poster: breakfastDesktop,
+                    infoSection: freelanceProjectData,
                   },
                 })
               }
