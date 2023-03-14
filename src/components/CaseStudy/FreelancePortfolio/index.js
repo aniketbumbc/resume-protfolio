@@ -2,10 +2,9 @@ import './index.scss';
 import imageFont from '../../../assets/images/case study/font-porfolio.png';
 import colorPalette from '../../../assets/images/case study/color-palette.png';
 import Navigation from '../../Navigation';
-import breakfastPoster from '../../../assets/images/case study/breakfast-desktop.png';
 import breakfastDesktop from '../../../assets/images/case study/Break-fast poster.png';
 import renoHeaderPoster from '../../../assets/images/case study/reno-heading-picture.png';
-
+import leantodoapp from '../../../assets/images/case study/learntodoapp-desktop.png';
 import {
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
@@ -47,7 +46,7 @@ const FreelancePortfolio = () => {
           backNavigation: 'casestudy',
           previousDescriptionIntro: breakFastDescriptionIntro,
           previousDescriptionBody: breakFastDescriptionBody,
-          previousImageSrc: breakfastPoster,
+          previousImageSrc: leantodoapp,
           previousInfosection: breakFastProjectData,
           previousPoster: breakfastDesktop,
         }}

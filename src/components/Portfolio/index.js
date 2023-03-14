@@ -204,8 +204,8 @@ const Portfolio = () => {
           </span>
           <p className="ecommerce-text-para">
             I helped John to design and build his freelance portfolio for his
-            business. That really assists him to capture more clients and show
-            his skill sets.
+            freelance business. which really assists him to capture more clients
+            and show his skill sets.
           </p>{' '}
           <div
             className="navigation-btn case-study-btn"

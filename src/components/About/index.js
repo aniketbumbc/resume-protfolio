@@ -148,8 +148,7 @@ const About = () => {
           <p className="details-info">
             I'm a skilled visual designer with an eye for graphics, typography,{' '}
             layout, and color. I love designing functional software & mobile
-            products with <br />
-            infusing modern aesthetics.
+            products with infusing modern aesthetics.
           </p>
         </div>
         <div>
