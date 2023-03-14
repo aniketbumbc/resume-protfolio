@@ -11,6 +11,9 @@ import {
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
   breakFastProjectData,
+  freelanceProjectData,
+  freelanceProtfolioBody,
+  freelanceProtfolioIntro,
   portfolioTitle,
   renoTitle,
 } from '../../../constant';
@@ -209,10 +212,10 @@ const LearnTodo = () => {
           nextTitle: portfolioTitle,
           nextNavigationText: 'View Case Study',
           frontNavigation: 'casestudy',
-          nextDescriptionIntro: breakFastDescriptionIntro,
-          nextDescriptionBody: breakFastDescriptionBody,
+          nextDescriptionIntro: freelanceProtfolioIntro,
+          nextDescriptionBody: freelanceProtfolioBody,
           nextImageSrc: showPortfolio,
-          nextInfosection: breakFastProjectData,
+          nextInfosection: freelanceProjectData,
           nextPoster: breakfastDesktop,
           title: renoTitle,
         }}

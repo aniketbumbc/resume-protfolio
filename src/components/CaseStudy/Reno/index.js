@@ -11,6 +11,9 @@ import {
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
   breakFastProjectData,
+  freelanceProjectData,
+  freelanceProtfolioBody,
+  freelanceProtfolioIntro,
   portfolioTitle,
 } from '../../../constant';
 
@@ -132,10 +135,10 @@ const Reno = () => {
           previousTitle: portfolioTitle,
           previousNavigationText: 'View Case Study',
           backNavigation: 'casestudy',
-          previousDescriptionIntro: breakFastDescriptionIntro,
-          previousDescriptionBody: breakFastDescriptionBody,
+          previousDescriptionIntro: freelanceProtfolioIntro,
+          previousDescriptionBody: freelanceProtfolioBody,
           previousImageSrc: showPortfolio,
-          previousInfosection: breakFastProjectData,
+          previousInfosection: freelanceProjectData,
           previousPoster: breakfastDesktop,
         }}
         nextData={{

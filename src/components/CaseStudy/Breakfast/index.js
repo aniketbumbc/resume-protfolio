@@ -1,22 +1,12 @@
 import Navigation from '../../Navigation';
 import {
-  productDesignText,
-  ohvazBreakfast,
-  learnTodoText,
-  portfolioText,
-  breakFastProject,
   breakFastDescriptionBody,
   breakFastDescriptionIntro,
   breakFastProjectData,
-  portfolioTitle,
-  renoText,
-  learnTodoTitle,
-  renoTitle,
 } from '../../../constant';
 
 import leantodoapp from '../../../assets/images/case study/learntodoapp-desktop.png';
 import breakfastDesktop from '../../../assets/images/case study/Break-fast poster.png';
-import breakfastPoster from '../../../assets/images/case study/breakfast-desktop.png';
 
 const EBreakfast = ({ poster }) => {
   return (

@@ -28,6 +28,9 @@ import {
   learnTodoTitle,
   portfolioTitle,
   renoTitle,
+  freelanceProjectData,
+  freelanceProtfolioIntro,
+  freelanceProtfolioBody,
 } from '../../constant';
 
 const Portfolio = () => {
@@ -198,7 +201,7 @@ const Portfolio = () => {
             />
           </span>
           <p className="ecommerce-text-para">
-            I helped John to design and build his Freelance portfolio for his
+            I helped John to design and build his freelance portfolio for his
             business. That really assists him to capture more clients and show
             his skill sets.
           </p>{' '}
@@ -208,10 +211,10 @@ const Portfolio = () => {
               navigate('/casestudy', {
                 state: {
                   title: portfolioTitle,
-                  descriptionIntro: breakFastDescriptionIntro,
-                  descriptionBody: breakFastDescriptionBody,
+                  descriptionIntro: freelanceProtfolioIntro,
+                  descriptionBody: freelanceProtfolioBody,
                   imageSrc: showPortfolio,
-                  infoSection: breakFastProjectData,
+                  infoSection: freelanceProjectData,
                   poster: renovationProject,
                 },
               })
@@ -235,9 +238,10 @@ const Portfolio = () => {
               />
             </span>
             <p className="left-para-description">
-              I was the sole web designer for a leading conversational AI tool
-              training platform for bank accounts. The new design reduced task
-              times by 68% and improved users’ subjective satisfaction by 139%.
+              The Reno business was offline, they provided services like
+              carpainter, plumbing and other repairing. I help them to expand
+              their business online by providing elegant design for new
+              websites. That assists them to capture more markets and clients.
             </p>{' '}
             <div
               className="navigation-btn case-study-btn"

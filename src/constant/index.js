@@ -164,25 +164,47 @@ export const learnTodoTitle = 'Learn Todo App';
 export const portfolioTitle = 'Freelance Portfolio';
 export const renoTitle = 'Reno Inovation';
 export const breakFastDescriptionIntro =
-  'An 8-month long research study into the college mental health care space';
+  'An 3 - 6 month long research study and design effort for an online healthy breakfast store';
 export const breakFastDescriptionBody =
-  'The Elliewood Fellowship was a one-year program that gave top UVA graduates a viable path to start ventures in Charlottesville and contribute to the local entrepreneurial ecosystem.';
+  'It was a project in which owners require both web applications as well as mobile screens for their online business.The product card is the primary component of the design. It covers  ratings, price, calories, grams, along with an add cart option and details.';
 
+export const freelanceProtfolioIntro =
+  'The freelance portfolio developer need to showcases his skills, expertise, and experience as a freelancer. It imperative part of freelance career where he shows an online portfolio that he can use to market yourself to potential clients and demonstrate his ability to deliver high-quality work.';
+export const freelanceProtfolioBody =
+  'In this project I need to understand what kind of information needs to be shown  to attract clients. Such as information about your professional background, education, and any relevant certifications or training you have received. By presenting a well-rounded portfolio that highlights your skills, experience, and professionalism.';
 export const breakFastProjectData = [
   {
     title: 'Role',
     information: 'Entreprenurial Project',
-    shortInfo: 'Project Lead',
+    shortInfo: 'UX desginer-Developer',
   },
   {
     title: 'Team',
-    information: 'Entreprenurial Project',
-    shortInfo: 'Project Lead',
+    information: 'Entreprenurial Project Team',
+    shortInfo: 'Owner, Developer and UX Engineer',
   },
   {
     title: 'Duration',
-    information: 'Entreprenurial Project',
-    shortInfo: 'Project Lead',
+    information: 'Time Line',
+    shortInfo: '6-8 Months',
+  },
+];
+
+export const freelanceProjectData = [
+  {
+    title: 'Role',
+    information: 'Solo UX Developer',
+    shortInfo: 'UX desginer',
+  },
+  {
+    title: 'Team',
+    information: 'Solo UX Developer',
+    shortInfo: 'Owner, Developer and UX Engineer',
+  },
+  {
+    title: 'Duration',
+    information: 'Tight Deadline',
+    shortInfo: '1 - 2 Months',
   },
 ];
 
