@@ -1,7 +1,5 @@
 import './index.scss';
-
 import { useLocation } from 'react-router-dom';
-
 import {
   breakFastProject,
   portfolioTitle,

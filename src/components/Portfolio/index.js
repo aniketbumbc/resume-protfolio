@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import Loader from 'react-loaders';
 import designSketch from '../../assets/images/designer.gif';
 import ecommerce from '../../assets/images/ecommerce.jpg';
-import learnTodo from '../../assets/images/learnTodo.jpg';
+import learnTodo from '../../assets/images/learnTodo.png';
 import portfolio from '../../assets/images/porfolio-template.png';
 import AnimatedLetters from '../AnimatedLetters';
 import showPortfolio from '../../assets/images/case study/portfoilo-disply.png';
@@ -172,12 +172,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="text-section">
-          <img
-            src={learnTodo}
-            alt="fireSpot"
-            className="ecommerce-image"
-            loading="lazy"
-          />
+          <img src={learnTodo} alt="Lean Todo App" loading="lazy" />
         </div>
       </div>
 
