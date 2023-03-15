@@ -33,6 +33,9 @@ import {
   freelanceProtfolioBody,
   renoIntro,
   renoBody,
+  learnTodoIntro,
+  learnTodoBody,
+  learnTodoData,
 } from '../../constant';
 
 const Portfolio = () => {
@@ -158,11 +161,10 @@ const Portfolio = () => {
                 navigate('/casestudy', {
                   state: {
                     title: learnTodoTitle,
-                    descriptionIntro: breakFastDescriptionIntro,
-                    descriptionBody: breakFastDescriptionBody,
+                    descriptionIntro: learnTodoIntro,
+                    descriptionBody: learnTodoBody,
                     imageSrc: leantodoapp,
-                    infoSection: breakFastProjectData,
-                    poster: breakfastDesktop,
+                    infoSection: learnTodoData,
                   },
                 })
               }

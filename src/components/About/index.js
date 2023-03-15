@@ -147,7 +147,7 @@ const About = () => {
           <span className="title-skill">UI & UX Design</span>
           <p className="details-info">
             I'm a skilled visual designer with an eye for graphics, typography,{' '}
-            layout, and color. I love designing of websites & mobile products{' '}
+            layout, and color. I love designing of websites & mobile products
             <br /> with infusing modern aesthetics.
           </p>
         </div>

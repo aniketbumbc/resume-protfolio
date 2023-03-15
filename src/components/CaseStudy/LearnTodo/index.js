@@ -1,7 +1,6 @@
-import illustrationProblem from '../../../assets/images/case study/illustration-1.jpg';
-import illustrationOne from '../../../assets/images/case study/sitting study-3.png';
-import illustrationTwo from '../../../assets/images/case study/sitting study-2.png';
-import illustrationThree from '../../../assets/images/case study/sitting study.jpeg';
+import illustrationProblem from '../../../assets/images/case study/illustration-1.png';
+import illustrationOne from '../../../assets/images/case study/Sketch.png';
+import prototype from '../../../assets/images/case study/Prototype-Screen.png';
 import fontImage from '../../../assets/images/case study/font-learntodo.png';
 import breakfastPoster from '../../../assets/images/case study/breakfast-desktop.png';
 import showPortfolio from '../../../assets/images/case study/portfoilo-disply.png';
@@ -34,16 +33,17 @@ const LearnTodo = () => {
           <div>
             <p className="content-text">
               {' '}
-              We noticed that college students find it difficult to practice
-              self-care.
+              We noticed that school and college students find it difficult to
+              access advanced course material offline.
             </p>
 
             <p className="information">
-              Inspired by our battles with mental illness.
+              Inspired by our battles education for everyone.
             </p>
             <p className="information">
-              Witn this solution, we decided to compete in the University of
-              Virginia's Social Entreprenuership Competition.
+              With this solution, we decided to collaborate with the best
+              university in the world and access their course material in our
+              online courses .
             </p>
           </div>
         </div>
@@ -58,37 +58,39 @@ const LearnTodo = () => {
         </div>
       </div>
       <div className="withoutposter-container">
-        <div>
+        <div className="fidelity-sketch">
           <img
             src={illustrationOne}
             alt="fireSpot"
             loading="lazy"
-            className=""
+            className="sketch-image-margin"
           />
+          <p> Low fidelity sketches </p>
         </div>
+
         <div>
           <div className="problem-para">
             {' '}
             <hr className="hr-line" />
-            Problem
+            Design Process
           </div>
 
           <div>
             <p className="content-text">
               {' '}
-              We noticed that college students find it difficult to practice
-              self-care.
+              The first step of a design process is to understand requirements
+              and user's  working environment.
             </p>
 
             <p className="information">
-              Inspired by our battles with mental illness, two friends and I
-              decided to create a solution for encouraging self-care in everyday
-              college life.
-            </p>
-
-            <p className="information">
-              Witn this solution, we decided to compete in the University of
-              Virginia's Social Entreprenuership Competition.
+              <ul>
+                <li>Interview a bunch of people</li>
+                <li>Brainstorm (only using Post-Its)</li>
+                <li>Do a lot of low fidelity sketches</li>
+                <li>Make some wireframes</li>
+                <li>Create high fidelity mockups (.~*pixel perfect.~*)</li>
+                <li>Iterate, iterate, iterate ( Getting Feedback ) </li>
+              </ul>
             </p>
           </div>
         </div>
@@ -126,77 +128,29 @@ const LearnTodo = () => {
             src={fontImage}
             alt="fireSpot"
             loading="lazy"
-            className="study-margin-top-image"
+            className="study-image"
           />
         </div>
       </div>
-      <div className="withoutposter-container">
-        <div>
-          <img
-            src={illustrationThree}
-            alt="fireSpot"
-            loading="lazy"
-            className="study-margin-top-image"
-          />
+
+      <div className="process">
+        <div className="problem-para">
+          {' '}
+          <hr className="hr-line" />
+          Prototype
+          <hr className="hr-line" />
         </div>
-        <div>
-          <div>
-            <p className="content-text">
-              {' '}
-              We noticed that college students find it difficult to practice
-              self-care.
-            </p>
-
-            <p className="information">
-              Inspired by our battles with mental illness, two friends and I
-              decided to create a solution for encouraging self-care in everyday
-              college life.
-            </p>
-
-            <p className="information">
-              Witn this solution, we decided to compete in the University of
-              Virginia's Social Entreprenuership Competition.
-            </p>
-          </div>
+        <p className="information">
+          Prototyping is an essential step in UX design that helps to ensure the
+          usability and effectiveness of the final product or interface.. It is
+          an iterating and refining process based on user feedback, and
+          finalizing and implementing the design.
+        </p>
+        <div className="process-image">
+          <img src={prototype} alt="fireSpot" loading="lazy" />
         </div>
       </div>
-      <div className="withoutposter-container">
-        <div>
-          <div className="problem-para">
-            {' '}
-            <hr className="hr-line" />
-            Problem
-          </div>
 
-          <div>
-            <p className="content-text">
-              {' '}
-              We noticed that college students find it difficult to practice
-              self-care.
-            </p>
-
-            <p className="information">
-              Inspired by our battles with mental illness, two friends and I
-              decided to create a solution for encouraging self-care in everyday
-              college life.
-            </p>
-
-            <p className="information">
-              Witn this solution, we decided to compete in the University of
-              Virginia's Social Entreprenuership Competition.
-            </p>
-          </div>
-        </div>
-
-        <div>
-          <img
-            src={illustrationTwo}
-            alt="fireSpot"
-            loading="lazy"
-            className=""
-          />
-        </div>
-      </div>
       <Navigation
         previousData={{
           previousTitle: 'OhvazE-Breakfast',

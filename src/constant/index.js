@@ -162,7 +162,7 @@ export const portfolioText = [
 export const breakFastProject = 'OhvazE-Breakfast';
 export const learnTodoTitle = 'Learn Todo App';
 export const portfolioTitle = 'Freelance Portfolio';
-export const renoTitle = 'Reno Inovation';
+export const renoTitle = 'Reno Renovation';
 export const breakFastDescriptionIntro =
   'An 3 - 6 month long research study and design effort for an online healthy breakfast store';
 export const breakFastDescriptionBody =
@@ -213,3 +213,26 @@ export const renoIntro =
   'The business owner has a simple requirement to make their business online, which makes business more flexible, loweheads their cost, reaches a larger audience and increases profitability.';
 export const renoBody =
   'My approach was to make a design in iteration base which covers wireframe, user flow, site maps,  user flow and prototype.  The above steps are to know a clear understanding of actual web sites design.';
+
+export const learnTodoIntro =
+  'The main objective is to spread education across the world via the internet. It is around a 6 - 12 month research effort for designing as well as developing  a Learn Todo App.';
+export const learnTodoBody =
+  'It is a non-profitable organization whose only objective is to spread educational courses for all students.  As a UX designer my objective was to provide students with greater engagement, best user experience, easy accessibility and more flexibility  along with customized learning.';
+
+export const learnTodoData = [
+  {
+    title: 'Role',
+    information: 'UX Desginer',
+    shortInfo: 'Incremental approach',
+  },
+  {
+    title: 'Learn Todo Team',
+    information: 'Developer, Designer, Scrum master, Product owner',
+    shortInfo: 'Team worknig in the agile methodology,',
+  },
+  {
+    title: 'Duration',
+    information: 'Pivotal functionality in the year',
+    shortInfo: '9 - 12 Months',
+  },
+];
