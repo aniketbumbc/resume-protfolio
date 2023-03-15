@@ -62,25 +62,37 @@ const Sidebar = ({ colorStatus }) => {
         <ul>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a target="_blank" rel="noreferrer" href="">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/aniket-b-3750051a7/"
+            >
               <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
             </a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a target="_blank" rel="noreferrer" href="">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/aniketbumbc"
+            >
               <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
             </a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a target="_blank" rel="noreferrer" href="">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/andyjak78"
+            >
               <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
             </a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a target="_blank" rel="noreferrer" href="">
+            <a target="_blank" rel="noreferrer" href="https://dribbble.com/">
               <FontAwesomeIcon icon={faDribbble} color="#4d4d4e" />
             </a>
           </li>
