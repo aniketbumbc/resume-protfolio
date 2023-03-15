@@ -27,7 +27,7 @@ const Contact = () => {
           <p className="contact-section">Let's get in touch! </p>
           <Roll>
             <p className="contact-section primary-color">
-              aniket.b@gmail.com 📩
+              aniketfreelance21@gmail.com 📩
             </p>
           </Roll>
           <p className="info-section">
