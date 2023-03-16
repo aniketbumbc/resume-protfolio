@@ -174,16 +174,19 @@ export const freelanceProtfolioBody =
   'In this project I need to understand what kind of information needs to be shown  to attract clients. Such as information about your professional background, education, and any relevant certifications or training you have received. By presenting a well-rounded portfolio that highlights your skills, experience, and professionalism.';
 export const breakFastProjectData = [
   {
+    id: 1,
     title: 'Role',
     information: 'Entreprenurial Project',
     shortInfo: 'UX desginer-Developer',
   },
   {
+    id: 2,
     title: 'Team',
     information: 'Entreprenurial Project Team',
     shortInfo: 'Owner, Developer and UX Engineer',
   },
   {
+    id: 3,
     title: 'Duration',
     information: 'Time Line',
     shortInfo: '6-8 Months',
@@ -192,16 +195,19 @@ export const breakFastProjectData = [
 
 export const freelanceProjectData = [
   {
+    id: 1,
     title: 'Role',
     information: 'Solo UX Developer',
     shortInfo: 'UX desginer',
   },
   {
+    id: 2,
     title: 'Team',
     information: 'Solo UX Developer',
     shortInfo: 'Owner, Developer and UX Engineer',
   },
   {
+    id: 3,
     title: 'Duration',
     information: 'Tight Deadline',
     shortInfo: '1 - 2 Months',
@@ -221,16 +227,19 @@ export const learnTodoBody =
 
 export const learnTodoData = [
   {
+    id: 1,
     title: 'Role',
     information: 'UX Desginer',
     shortInfo: 'Incremental approach',
   },
   {
+    id: 2,
     title: 'Learn Todo Team',
     information: 'Developer, Designer, Scrum master, Product owner',
     shortInfo: 'Team worknig in the agile methodology,',
   },
   {
+    id: 3,
     title: 'Duration',
     information: 'Pivotal functionality in the year',
     shortInfo: '9 - 12 Months',

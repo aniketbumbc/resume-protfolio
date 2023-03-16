@@ -45,13 +45,13 @@ const Home = () => {
               Javascript Fullstack Developer / UX-UI Designer
             </h2>
             <Slide>
-              <a
+              {/* <a
                 className="flat-button"
                 href="../../assets/Resume/Aniket_Bhavsar.pdf"
                 download="Aniket_Bhavsar.pdf"
               >
                 Resume
-              </a>
+              </a> */}
             </Slide>
           </div>
         </div>

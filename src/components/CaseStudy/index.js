@@ -29,15 +29,20 @@ const CaseStudy = () => {
           <p>{descriptionBody}</p>
         </div>
         <div className="image-containter">
-          <img src={imageSrc} alt="fireSpot" loading="lazy" className="" />
+          <img
+            src={imageSrc}
+            alt="fireSpot"
+            loading="lazy"
+            className="image-margin"
+          />
         </div>
       </div>
       <div className="rectangle">
         <div className="cotainer-data">
-          {infoSection.map((value, index) => {
+          {infoSection.map((value) => {
             return (
               <>
-                <div key={index + value.title}>
+                <div key={value.id}>
                   <p className="title"> {value.title}</p>
                   <p className="information">{value.information}</p>
                   <p className="information">{value.shortInfo}</p>

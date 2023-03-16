@@ -133,8 +133,7 @@ const About = () => {
         <div>
           <span className="title-skill">Product Management</span>
           <p className="details-info">
-            I'm a certified Product Management Foundations from{' '}
-            <a href="https://www.reforge.com/programs/">REFORGE</a>. Looking
+            I'm a certified Product Management Foundations from REFORGE. Looking
             forward to different courses from same university. Along with hefty
             work experience in agile processes and methodologies to my design
             process.

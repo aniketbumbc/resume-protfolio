@@ -46,7 +46,7 @@ const Reno = () => {
           </div>
         </div>
 
-        <div>
+        <div style={{ marginTop: '100px' }}>
           <img
             src={carpainter}
             alt="fireSpot"

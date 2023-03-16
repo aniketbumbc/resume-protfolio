@@ -11,6 +11,7 @@ import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import AnimatedCursor from 'react-animated-cursor';
 import Portfolio from './components/Portfolio';
+import workInProgress from './assets/images/work-progress.jpeg';
 
 function App() {
   const [dynamicColor, setDynamicColor] = useState('#caf0f8');
@@ -29,6 +30,10 @@ function App() {
   return (
     <>
       <>
+        <div className="work-inprogress">
+          <img src={workInProgress} alt="Work IN Progress" loading="lazy" />
+          <h1> Currently Only Work For Desktop/Laptop Screen</h1>
+        </div>
         <Switch
           className="color-change-btn"
           onChange={handleColorChange}

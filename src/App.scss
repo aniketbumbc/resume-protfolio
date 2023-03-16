@@ -56,3 +56,28 @@ textarea {
   float: right;
   margin-top: 30px;
 }
+
+@media only screen and (min-width: 1425px) {
+  .work-inprogress {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1425px) {
+  .work-inprogress {
+    text-align: center;
+    opacity: 1;
+    background-color: rgb(19, 5, 27);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    text-transform: uppercase;
+    font-size: 15px;
+    img {
+      margin-top: 15%;
+    }
+  }
+}
