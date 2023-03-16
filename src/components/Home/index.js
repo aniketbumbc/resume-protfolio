@@ -17,6 +17,8 @@ const Home = () => {
     }, 4000);
   }, []);
 
+  console.log();
+
   return (
     <>
       <div className="home-container">
@@ -45,13 +47,13 @@ const Home = () => {
               Javascript Fullstack Developer / UX-UI Designer
             </h2>
             <Slide>
-              {/* <a
+              <a
                 className="flat-button"
-                href="../../assets/Resume/Aniket_Bhavsar.pdf"
+                href={process.env.PUBLIC_URL + '/Aniket_Bhavsar.pdf'}
                 download="Aniket_Bhavsar.pdf"
               >
                 Resume
-              </a> */}
+              </a>
             </Slide>
           </div>
         </div>

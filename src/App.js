@@ -31,8 +31,8 @@ function App() {
     <>
       <>
         <div className="work-inprogress">
+          <h1> Currently Only Work On Desktop/Laptop Screen</h1>
           <img src={workInProgress} alt="Work IN Progress" loading="lazy" />
-          <h1> Currently Only Work For Desktop/Laptop Screen</h1>
         </div>
         <Switch
           className="color-change-btn"
