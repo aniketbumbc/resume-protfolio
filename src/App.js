@@ -11,7 +11,7 @@ import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import AnimatedCursor from 'react-animated-cursor';
 import Portfolio from './components/Portfolio';
-import workInProgress from './assets/images/work-progress.jpeg';
+import workInProgress from './assets/images/work-progress.png';
 
 function App() {
   const [dynamicColor, setDynamicColor] = useState('#caf0f8');
@@ -31,7 +31,7 @@ function App() {
     <>
       <>
         <div className="work-inprogress">
-          <h1> Currently Only Work On Desktop/Laptop Screen</h1>
+          <h1> Desktop/Laptop Screens Only</h1>
           <img src={workInProgress} alt="Work IN Progress" loading="lazy" />
         </div>
         <Switch
