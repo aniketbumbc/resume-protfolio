@@ -62,7 +62,7 @@ const Portfolio = () => {
               />
             </span>
             <p className="main-text-para">
-              What differentiates a good to a great product ( web application )?
+              What differentiates a good to a great product ( Web / Mobile )?
               It's feedback. Empower your businees by building your UX/UI design
               for product and catch users attention.
             </p>
@@ -78,15 +78,15 @@ const Portfolio = () => {
           <div className="skill-info">
             In the upcoming session we will go through overall vision and goals
             of the product, including the target audience, market trends, and
-            key features that the product should have. <br />
-            Along with topic in depth analysis of research,user testing,
-            prototyping, iteration along with color schemes, typography, and
-            layout, to ensure that the product looks and feels good to use.
+            key features that the product should have. At the same time will
+            cover topic in depth analysis of research,user testing, prototyping,
+            iteration, color schemes, typography, and layout, to ensure that the
+            product looks and feels good with great user experience.
           </div>
         </div>
 
         <div>
-          <img src={designSketch} alt="fireSpot" loading="lazy" />
+          <img src={designSketch} alt="Design Sketch" loading="lazy" />
         </div>
       </div>
 
@@ -112,10 +112,11 @@ const Portfolio = () => {
             />
           </span>
           <p className="ecommerce-text-para">
-            I am sole the sole web designer for a breakfast online eatery.
-            Online platform that provide breakfast, healty mixed paste and
-            fruits jam. The design help owers to redued task time by 68% and
-            improved customer engagement with store more than 90%.
+            The sole UX-UI designer for a breakfast online eatery. Online
+            platform that provide healty breakfast, healty ingredients mixed
+            paste and fruits jam. The design help owers to redued his manual
+            advertisement tasks time by 72% and improved customer engagement
+            with store more than 90%.
           </p>{' '}
           <div
             className="navigation-btn case-study-btn"
@@ -152,8 +153,9 @@ const Portfolio = () => {
             </span>
             <p className="left-para-description">
               I am part of the designing team with the product owner. I assist
-              product owners to fulfill the requirement to build interactive
-              prototypes, mobile screens, logs and other UX operations.
+              product owner to fulfill the requirement to build interactive
+              prototypes, mobile screens, logs and other UX operations for a
+              project.
             </p>{' '}
             <div
               className="navigation-btn case-study-btn"
@@ -201,8 +203,8 @@ const Portfolio = () => {
           </span>
           <p className="ecommerce-text-para">
             I helped John to design and build his freelance portfolio for his
-            freelance business. which really assists him to capture more clients
-            and show his skill sets.
+            freelance business. Portfolio really assists him to capture more
+            clients and show his skill sets.
           </p>{' '}
           <div
             className="navigation-btn case-study-btn"
@@ -240,7 +242,7 @@ const Portfolio = () => {
               The Reno business was offline, they provided services like
               carpainter, plumbing and other repairing. I help them to expand
               their business online by providing elegant design for new
-              websites. That assists them to capture more markets and clients.
+              websites. Which assists them to capture more markets and clients.
             </p>{' '}
             <div
               className="navigation-btn case-study-btn"

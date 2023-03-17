@@ -38,38 +38,37 @@ const About = () => {
           </h1>
           <Reveal>
             <p className="about-info">
-              I’m a{' '}
+              I’m a human who likes to do
               <span className="secondary-color">
-                marathon runner🏃‍♂️, learner👨‍💻, swimmer🏊‍♂️, believer in
-                meditation🧘🏻,{' '}
+                running🏃‍♂️, learn new things 👨‍💻, swim in the open water 🏊‍♂️,
+                believe in meditation🧘🏻,{' '}
               </span>{' '}
-              and amateur musician who{' '}
+              and amateur musician who
               <span className="secondary-color">plays guitar🎸</span>. Fond of
               traveling and observing different cultures and understanding
               humans. Spreading more{' '}
               <span className="secondary-color">
                 {' '}
-                Empathy and Solving humans problem{' '}
+                empathy and solving humans problem{' '}
               </span>{' '}
-              with the assessment of technology.
+              with the assistance of technology.
             </p>
           </Reveal>
           <Fade>
             <p className="about-info">
-              Graduated with{' '}
+              I graduated with
               <span className="secondary-color">
-                Masters of Science in Information Systems from USA 🇺🇸.
+                Masters of Science in Information Systems from the USA 🇺🇸.
               </span>{' '}
-              Currently working in the IT industry for more than 5 years of
-              experiences in the
+              I am currently working in the IT industry for more than 5 years of
+              experiences as the
               <span className="secondary-color">
                 {' '}
-                Front-End (UI/UX) / JavaScript Developer.{' '}
+                Front-End (UI/UX) - JavaScript Developer.{' '}
               </span>{' '}
-              In addition, I also have a good understanding of{' '}
-              <span className="secondary-color">
-                UX-UI 🎨 designing skills.
-              </span>
+              along with good understanding of{' '}
+              <span className="secondary-color">UX-UI 🎨</span> designing
+              experience.
             </p>
           </Fade>
           <Zoom>
@@ -115,9 +114,9 @@ const About = () => {
         <div>
           <span className="title-skill">Software Development</span>
           <p className="details-info">
-            I'm passionate about building and develop software products across
-            productivity, CRM, and community. I specialize in development
-            products from ideation to launch.
+            I'm passionate about building and developing software products. I
+            specialize in development and design products from ideation to
+            launch.
           </p>
         </div>
 
@@ -125,7 +124,7 @@ const About = () => {
           <span className="title-skill">Leadership</span>
           <p className="details-info">
             I firmly believe that great leaders always work for the people.
-            Leadership is all about showing up for people and inspiring growth,
+            leadership is all about showing up for people and inspiring growth,
             regardless of what position you’re in or how much power you hold.
           </p>
         </div>
@@ -133,10 +132,10 @@ const About = () => {
         <div>
           <span className="title-skill">Product Management</span>
           <p className="details-info">
-            I'm a certified Product Management Foundations from REFORGE. Looking
-            forward to different courses from same university. Along with hefty
-            work experience in agile processes and methodologies to my design
-            process.
+            I'm a certified product management foundations course from REFORGE .
+            Looking forward to different courses from same university. Along
+            with hefty work experience in agile processes and methodologies to
+            my design process.
           </p>
         </div>
       </div>
@@ -153,7 +152,7 @@ const About = () => {
         <div>
           <span className="title-skill"> User Research</span>
           <p className="details-info">
-            I believe this is most important step of the design process. I love
+            One of the most important step of the design process. I love
             speaking to users and understanding their process & problems first,
             before even considering design.
           </p>
@@ -162,8 +161,8 @@ const About = () => {
           <span className="title-skill">Prototyping - User flow</span>
           <p className="details-info">
             I'm skilled in prototyping products with users and stakeholders
-            across the entire design lifecycle. I love using Figma, Sketch, &
-            Invision to wireframe and design process.
+            across the entire design lifecycle. I love using Figma, Sketch,
+            webflow & invision to wireframe and design process.
           </p>
         </div>
       </div>
