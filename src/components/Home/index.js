@@ -47,13 +47,13 @@ const Home = () => {
               Javascript Fullstack Developer / UX-UI Designer
             </h2>
             <Slide>
-              <a
+              {/* <a
                 className="flat-button"
                 href={process.env.PUBLIC_URL + '/Aniket_Bhavsar.pdf'}
                 download="Aniket_Bhavsar.pdf"
               >
                 Resume
-              </a>
+              </a> */}
             </Slide>
           </div>
         </div>
