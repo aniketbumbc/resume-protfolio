@@ -1,7 +1,7 @@
 @import '../../App.scss';
 
 .navigation-container {
-  color: black;
+  color: rgb(62, 63, 62);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,11 +21,13 @@
     margin-top: 4%;
   }
   .navigation-title {
+    font-weight: 500;
     font-family: 'Coolvetica';
     color: $primary-color;
     letter-spacing: 2px;
   }
   .case-study {
+    font-weight: 500;
     font-family: 'Coolvetica';
     color: $secondary-color;
     letter-spacing: 2px;
