@@ -31,13 +31,14 @@ const Contact = () => {
             </p>
           </Roll>
           <p className="info-section">
-            Always down to collaborate when, I get an opportunity. <br />
-            I'm hoping to further my career by designing and development <br />
+            Always down to collaborate. Always up for new an opportunities.{' '}
+            <br />
+            I'm hoping to further my work into designing and development <br />
             digital product 💻.
             <br />
           </p>
           <p className="site-info">
-            This site is hand-crafted, with ReactJS along with Scss.
+            This site is self hand-crafted, with ReactJS along with Scss.
           </p>
 
           <p className="copyright-info">Copyright © Bunny Bee.</p>

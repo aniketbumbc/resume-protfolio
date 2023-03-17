@@ -76,9 +76,9 @@ const Portfolio = () => {
             </a>
           </div>
           <div className="skill-info">
-            In the upcoming session we will go through overall vision and goals
+            In the upcoming sessions we will go through overall vision and goals
             of the product, including the target audience, market trends, and
-            key features that the product should have. At the same time will
+            key features that the product should have. At the same time we will
             cover topic in depth analysis of research,user testing, prototyping,
             iteration, color schemes, typography, and layout, to ensure that the
             product looks and feels good with great user experience.

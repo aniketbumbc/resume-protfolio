@@ -38,10 +38,10 @@ const About = () => {
           </h1>
           <Reveal>
             <p className="about-info">
-              I’m a human who likes to do
+              I’m a human who likes to do{' '}
               <span className="secondary-color">
-                running🏃‍♂️, learn new things 👨‍💻, swim in the open water 🏊‍♂️,
-                believe in meditation🧘🏻,{' '}
+                marathon🏃‍♂️, acquire new skills 👨‍💻, swim in the open water 🏊‍♂️,
+                strong believe in the meditation🧘🏻,{' '}
               </span>{' '}
               and amateur musician who
               <span className="secondary-color">plays guitar🎸</span>. Fond of
