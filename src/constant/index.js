@@ -1,5 +1,5 @@
-export const nameArray = [' ', ' A', 'n', 'i', 'k', 'e', 't', ' ', 'B.'];
-export const jobArray = [
+export const nameTitleArray = [' ', ' A', 'n', 'i', 'k', 'e', 't', ' ', 'B.'];
+export const jobTitleArray = [
   'S',
   'o',
   'f',
