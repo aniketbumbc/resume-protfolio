@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { jobArray, nameArray } from '../../constant';
+import { jobTitleArray, nameTitleArray } from '../../constant';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import { Slide } from 'react-awesome-reveal';
@@ -33,13 +33,13 @@ const Home = () => {
               <span className={`${letterClass} _14`}>'m</span>
               <AnimatedLetters
                 letterClass={letterClass}
-                strArray={nameArray}
+                strArray={nameTitleArray}
                 idx={15}
               />
               <br />
               <AnimatedLetters
                 letterClass={letterClass}
-                strArray={jobArray}
+                strArray={jobTitleArray}
                 idx={25}
               />
             </h1>
