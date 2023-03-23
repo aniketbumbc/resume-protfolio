@@ -15,6 +15,7 @@ import {
   faHome,
   faUser,
   faBriefcase,
+  faLaptopCode,
 } from '@fortawesome/free-solid-svg-icons';
 import { Zoom } from 'react-awesome-reveal';
 
@@ -48,6 +49,15 @@ const Sidebar = ({ colorStatus }) => {
             to="/portfolio"
           >
             <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
+          </NavLink>
+
+          <NavLink
+            exact="true"
+            activeclassname="active"
+            className="code-link"
+            to="/code"
+          >
+            <FontAwesomeIcon icon={faLaptopCode} color="red" />
           </NavLink>
 
           <NavLink

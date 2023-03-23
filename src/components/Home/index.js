@@ -5,7 +5,6 @@ import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import { Slide } from 'react-awesome-reveal';
 import userImage from '../../assets/images/developer-program.gif';
-
 import './index.scss';
 
 const Home = () => {

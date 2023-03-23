@@ -12,6 +12,7 @@ import { loadFull } from 'tsparticles';
 import AnimatedCursor from 'react-animated-cursor';
 import Portfolio from './components/Portfolio';
 import workInProgress from './assets/images/work-progress.png';
+import ShowCodeSkill from './components/Code';
 
 function App() {
   const [dynamicColor, setDynamicColor] = useState('#caf0f8');
@@ -228,6 +229,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="casestudy" element={<CaseStudy />} />
+          <Route path="code" element={<ShowCodeSkill />} />
         </Route>
       </Routes>
     </>

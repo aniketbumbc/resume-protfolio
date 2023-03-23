@@ -32,7 +32,7 @@
   nav {
     display: block;
     text-align: center;
-    margin-top: 90%;
+    margin-top: 50%;
     width: 100%;
     height: 100%;
 
@@ -92,7 +92,13 @@
 
     a.work-link {
       &:after {
-        content: 'Portfolio';
+        content: 'PORTFOLIO';
+        cursor: pointer;
+      }
+    }
+    a.code-link {
+      &:after {
+        content: 'CODE';
         cursor: pointer;
       }
     }
@@ -106,7 +112,7 @@
 
     a.portfolio-link {
       &:after {
-        content: 'PORTFOLIO';
+        content: 'PORTFOLIO UX';
         cursor: pointer;
       }
     }
