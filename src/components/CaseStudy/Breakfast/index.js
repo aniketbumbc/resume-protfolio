@@ -12,7 +12,7 @@ const EBreakfast = ({ poster }) => {
   return (
     <>
       <div className="main-image">
-        <img src={poster} alt="fireSpot" loading="lazy" className="" />
+        <img src={poster} alt="fireSpot" loading="lazy" />
       </div>
       <Navigation
         previousData={{

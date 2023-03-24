@@ -17,7 +17,7 @@ const ShowCodeSkill = () => {
       <div className="card-container">
         <div className="card">
           <div className="image">
-            <img src={reactLogoImage} alt="reactLogoImage" />
+            <img src={reactLogoImage} alt="reactLogoImage" loading="lazy" />
           </div>
 
           <div className="details">
@@ -47,7 +47,7 @@ const ShowCodeSkill = () => {
         </div>
         <div className="card">
           <div className="image">
-            <img src={quicargoImage} alt="reactLogoImage" />
+            <img src={quicargoImage} alt="reactLogoImage" loading="lazy" />
           </div>
 
           <div className="details">
@@ -77,7 +77,7 @@ const ShowCodeSkill = () => {
         </div>{' '}
         <div className="card">
           <div className="image">
-            <img src={helloFresh} alt="helloFresh" />
+            <img src={helloFresh} alt="helloFresh" loading="lazy" />
           </div>
 
           <div className="details">
@@ -107,7 +107,7 @@ const ShowCodeSkill = () => {
         </div>{' '}
         <div className="card">
           <div className="image">
-            <img src={QandA} alt="reduxImage" />
+            <img src={QandA} alt="reduxImage" loading="lazy" />
           </div>
 
           <div className="details">
@@ -137,7 +137,7 @@ const ShowCodeSkill = () => {
         </div>{' '}
         <div className="card">
           <div className="image">
-            <img src={rikcy} alt="RickyImage" />
+            <img src={rikcy} alt="RickyImage" loading="lazy" />
           </div>
 
           <div className="details">
@@ -167,7 +167,7 @@ const ShowCodeSkill = () => {
         </div>{' '}
         <div className="card">
           <div className="image">
-            <img src={toDoList} alt="toDoList" />
+            <img src={toDoList} alt="toDoList" loading="lazy" />
           </div>
 
           <div className="details">
@@ -197,7 +197,7 @@ const ShowCodeSkill = () => {
         </div>
         <div className="card">
           <div className="image">
-            <img src={countrySearch} alt="Searchimage" />
+            <img src={countrySearch} alt="Searchimage" loading="lazy" />
           </div>
 
           <div className="details">
@@ -227,7 +227,7 @@ const ShowCodeSkill = () => {
         </div>{' '}
         <div className="card">
           <div className="image">
-            <img src={reduxImage} alt="reactLogoImage" />
+            <img src={reduxImage} alt="reactLogoImage" loading="lazy" />
           </div>
 
           <div className="details">
@@ -257,7 +257,7 @@ const ShowCodeSkill = () => {
         </div>{' '}
         <div className="card">
           <div className="image">
-            <img src={unibet} alt="reactLogoImage" />
+            <img src={unibet} alt="reactLogoImage" loading="lazy" />
           </div>
           <div className="details">
             <div className="center">
