@@ -52,7 +52,7 @@
 }
 .card .details .center {
   text-align: center;
-  background: $secondary-color;
+  background: #70e0bf;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -69,7 +69,7 @@
 .card .details .center span {
   font-size: 18px;
   font-weight: bold;
-  color: #13ce96;
+  color: $primary-color;
 }
 .card .details .center p {
   margin: 10px 0;
@@ -94,8 +94,4 @@
   li {
     list-style: none;
   }
-}
-
-.test {
-  margin: 40%;
 }
