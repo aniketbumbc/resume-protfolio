@@ -42,7 +42,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: $secondary-color;
+  background: $primary-color;
   transition: 0.5s;
   transform-origin: left;
   transform: perspective(2000px) rotateY(-90deg);
@@ -52,7 +52,7 @@
 }
 .card .details .center {
   text-align: center;
-  background: #fff;
+  background: $secondary-color;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -60,7 +60,7 @@
 .card .details .center h1 {
   margin-bottom: 10px;
   padding: 0;
-  color: $primary-color;
+  color: whitesmoke;
   line-height: 20px;
   margin-top: 20px;
   font-size: 20px;
