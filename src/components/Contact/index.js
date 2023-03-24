@@ -29,16 +29,24 @@ const Contact = () => {
             <p className="contact-section primary-color">
               aniketfreelance21@gmail.com 📩
             </p>
+            <a
+              className="navigation-btn"
+              href="https://calendly.com/aniket-umbc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Online Meeting
+            </a>
           </Roll>
           <p className="info-section">
-            Always down to collaborate. Always up for new an opportunities.{' '}
+            Always down to collaborate. Always up for new opportunities. <br />
+            I'm hoping to continue further my work into designing and developing{' '}
             <br />
-            I'm hoping to further my work into designing and development <br />
-            digital product 💻.
+            digital products 💻.
             <br />
           </p>
           <p className="site-info">
-            This site is self hand-crafted, with ReactJS along with Scss.
+            This site is self hand-crafted, with React and Scss.
           </p>
 
           <p className="copyright-info">Copyright © Bunny Bee.</p>

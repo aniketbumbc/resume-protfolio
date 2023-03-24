@@ -38,12 +38,12 @@ const About = () => {
           </h1>
           <Reveal>
             <p className="about-info">
-              I’m a human who likes to do{' '}
+              I love to do{' '}
               <span className="secondary-color">
-                marathon🏃‍♂️, acquire new skills 👨‍💻, swim in the open water 🏊‍♂️,
+                marathon🏃‍♂️, acquiring new skills 👨‍💻, swim in the open water 🏊‍♂️,
                 strong believe in the meditation🧘🏻,{' '}
               </span>{' '}
-              and amateur musician who
+              and amateur musician who{' '}
               <span className="secondary-color">plays guitar🎸</span>. Fond of
               traveling and observing different cultures and understanding
               humans. Spreading more{' '}
@@ -56,7 +56,7 @@ const About = () => {
           </Reveal>
           <Fade>
             <p className="about-info">
-              I graduated with
+              I graduated with{' '}
               <span className="secondary-color">
                 Masters of Science in Information Systems from the USA 🇺🇸.
               </span>{' '}
@@ -68,7 +68,7 @@ const About = () => {
               </span>{' '}
               along with good understanding of{' '}
               <span className="secondary-color">UX-UI 🎨</span> designing
-              experience.
+              principles.
             </p>
           </Fade>
           <Zoom>
@@ -112,7 +112,7 @@ const About = () => {
 
       <div className="aboutme-container">
         <div>
-          <span className="title-skill">Software Development</span>
+          <span className="title-skill">Development</span>
           <p className="details-info">
             I'm passionate about building and developing software products. I
             specialize in development and design products from ideation to
