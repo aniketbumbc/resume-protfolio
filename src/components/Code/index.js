@@ -89,7 +89,7 @@ const ShowCodeSkill = () => {
                   className="code-icon"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://aniketbumbc.github.io/hello-fresh/"
+                  href="https://github.com/aniketbumbc/hello-fresh/"
                 >
                   <FontAwesomeIcon icon={faGithub} color="white" />
                 </a>
@@ -97,7 +97,7 @@ const ShowCodeSkill = () => {
                   className="code-icon"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/aniketbumbc/hello-fresh/"
+                  href="https://aniketbumbc.github.io/hello-fresh/"
                 >
                   <FontAwesomeIcon icon={faReact} color="white" />
                 </a>
