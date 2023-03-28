@@ -14,6 +14,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const ShowCodeSkill = () => {
   return (
     <>
+      <div className="info">
+        These are some code samples / tasks which I developed while the code
+        challenge / free time. I always believe that there is always scope for
+        improvement in each work / code quality. I am always looking forward for
+        new learning and gaining novel methods of implementation as an improving
+        Software Engineer.
+      </div>
       <div className="card-container">
         <div className="card">
           <div className="image">
