@@ -16,7 +16,7 @@ const ShowCodeSkill = () => {
     <>
       <div className="info">
         These are some code samples / tasks which I developed while the code
-        challenge / free time. I always believe that there is always scope for
+        challenge / free time. I always believe there is always scope for
         improvement in each work / code quality. I am always looking forward for
         new learning and gaining novel methods of implementation as an improving
         Software Engineer.
