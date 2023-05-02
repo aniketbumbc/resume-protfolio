@@ -8,6 +8,7 @@ import QandA from '../../assets/images/QnA.png';
 import rikcy from '../../assets/images/ricky.jpg';
 import toDoList from '../../assets/images/todo.png';
 import countrySearch from '../../assets/images/country search.jpeg';
+import shushiRoll from '../../assets/images/shushi.jpeg';
 import { faGithub, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -120,7 +121,7 @@ const ShowCodeSkill = () => {
           <div className="details">
             <div className="center">
               <h1>The Awesome Q-A Tool</h1>
-              <span>React, Hooks, Css, Redux </span>
+              <span>React, Hooks, Css, React-Redux </span>
               <h1>
                 <a
                   className="code-icon"
@@ -291,8 +292,36 @@ const ShowCodeSkill = () => {
             </div>
           </div>
         </div>
+        <div className="card">
+          <div className="image">
+            <img src={shushiRoll} alt="shushi-roll" loading="lazy" />
+          </div>
+          <div className="details">
+            <div className="center">
+              <h1>Shushi Restaurant </h1>
+              <span>Java script, HTML, Responsive Css </span>
+              <h1>
+                <a
+                  className="code-icon"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/aniketbumbc/shusi-restro-project"
+                >
+                  <FontAwesomeIcon icon={faGithub} color="white" />
+                </a>
+                <a
+                  className="code-icon"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://aniket-shushi-restro.netlify.app/"
+                >
+                  <FontAwesomeIcon icon={faReact} color="white" />
+                </a>
+              </h1>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="test"></div>
     </>
   );
 };
