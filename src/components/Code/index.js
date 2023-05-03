@@ -299,7 +299,7 @@ const ShowCodeSkill = () => {
           <div className="details">
             <div className="center">
               <h1>Shushi Restaurant </h1>
-              <span>Java script, HTML, Responsive Css </span>
+              <span>Java script, HTML,Responsive Design </span>
               <h1>
                 <a
                   className="code-icon"
